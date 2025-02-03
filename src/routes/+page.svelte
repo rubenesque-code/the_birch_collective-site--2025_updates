@@ -17,9 +17,9 @@
 	</div>
 
 	<div class="flex flex-grow justify-between">
-		<h1 class="font-display2 text-[30px] tracking-wider">The Birch Collective</h1>
+		<h2 class="font-display2 text-[30px] tracking-wider">The Birch Collective</h2>
 
-		<div class="font-sans4 flex items-end gap-4">
+		<div class="flex items-end gap-4 font-sans4">
 			<p class="">About Us</p>
 
 			<p class="">Programmes</p>
@@ -27,13 +27,17 @@
 	</div>
 </div>
 
-<div class="mt-[100px]">
+<div class="mt-[100px] flex justify-between px-3">
+	<div>
+		<h1 class="font-display3 text-[45px] tracking-wider text-[#4c803f]">The Birch Collective</h1>
+	</div>
+
 	<div class="w-[700px]">
 		<Picture
 			loading="eager"
 			imageClass="w-full h-full object-cover"
 			sizes="800px"
-			data={image.birch.walking_in_forest}
+			data={image.birch.group}
 			alt=""
 		/>
 	</div>

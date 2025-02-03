@@ -19,7 +19,8 @@ const config: Config = {
 				sans3: ['FunnelSans', 'sans-serif'],
 				sans4: ['Karla', 'sans-serif'],
 				display1: ['GloriaHallelujah', 'serif'],
-				display2: ['LondrinaOutline', 'serif'],
+				display2: ['LondrinaOutline', 'sans-serif'],
+				display3: ['LondrinaSolid', 'sans-serif'],
 			},
 
 			colors: {
