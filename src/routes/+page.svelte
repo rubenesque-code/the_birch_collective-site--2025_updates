@@ -97,3 +97,30 @@
 		/>
 	</div>
 </div>
+
+<div class="mt-24 px-3">
+	<h2 class="text-center font-display3 text-4xl tracking-wide">What we do</h2>
+
+	<div class="mt-12 grid grid-cols-2">
+		<div>
+			<p class="max-w-[450px]">
+				We run outdoor group experiences that bring you closer to nature, yourself and others. Our
+				sessions are about more than just spending time outside—they’re about building a community
+				where everyone is accepted for who they are. You’ll learn practical skills, like how to grow
+				your own food or create something beautiful from natural materials, all while connecting
+				with others who understand what you’re going through.
+			</p>
+
+			<h3 class="mt-6 font-display3 text-2xl text-bc-brown1">Get Involved</h3>
+
+			<p class="mt-2 max-w-[450px]">
+				The Birch Collective is primarily about helping 16-25 year olds by connecting them to
+				nature, but there are other ways to join in too.
+			</p>
+		</div>
+
+		<div>
+			<p class="max-w-[450px]"></p>
+		</div>
+	</div>
+</div>
