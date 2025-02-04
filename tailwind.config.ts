@@ -24,6 +24,11 @@ const config: Config = {
 			},
 
 			colors: {
+				'bc-green1': '#4c803f',
+				'bc-yellow1': '#ffeba0',
+				'bc-brown1': '#bb7731',
+				'bc-black1': '#241c13',
+
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",
@@ -67,6 +72,7 @@ const config: Config = {
 					border: "hsl(var(--sidebar-border))",
 					ring: "hsl(var(--sidebar-ring))",
 				},
+
 			},
 
 			borderRadius: {
