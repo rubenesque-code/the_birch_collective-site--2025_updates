@@ -40,8 +40,8 @@
 
 		<div class="mt-8 max-w-[450px] leading-[1.8em] text-bc-black1">
 			<p>
-				The Birch Collective helps people aged 16-25 in Bristol and the surrounding areas who might
-				be feeling isolated, overwhelmed, or unsure of their place in the world.
+				The Birch Collective helps people aged 16-25 in Bristol and surrounding areas who might be
+				feeling isolated, overwhelmed, or unsure of their place in the world.
 			</p>
 			<p class="mt-4">
 				If you’re navigating anxiety, depression, or simply seeking a space to belong, we’re here to
