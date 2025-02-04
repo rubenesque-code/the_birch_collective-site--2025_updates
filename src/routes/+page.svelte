@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import { ArrowRight } from 'lucide-svelte';
+	import { ArrowRight, ClipboardPenLine, Handshake, PiggyBank } from 'lucide-svelte';
 
 	import { image } from '^assets/images';
 	import { Picture } from '^components';
@@ -58,6 +58,32 @@
 				<span class="text-base text-bc-black1 opacity-90">Find out about our programmes</span>
 				<span class=""><ArrowRight size="17" /></span>
 			</Button>
+
+			<div class="mt-4 flex items-center gap-3">
+				<Button class="relative aspect-square h-[31px] rounded-full bg-bc-yellow1 p-[1px]">
+					<span
+						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-bc-green1/90"
+					>
+						<ClipboardPenLine size="14" />
+					</span>
+				</Button>
+
+				<Button class="relative aspect-square h-[31px] rounded-full bg-bc-yellow1 p-[1px]">
+					<span
+						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-bc-green1/90"
+					>
+						<PiggyBank size="14" />
+					</span>
+				</Button>
+
+				<Button class="relative aspect-square h-[31px] rounded-full bg-bc-yellow1 p-[1px]">
+					<span
+						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-bc-green1/90"
+					>
+						<Handshake size="14" />
+					</span>
+				</Button>
+			</div>
 		</div>
 	</div>
 
