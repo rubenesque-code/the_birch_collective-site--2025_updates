@@ -99,6 +99,15 @@
 }
 
 @font-face {
+	font-family: 'Incosolota';
+	src: url('/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf')
+		format('truetype-variations');
+	font-optical-sizing: auto;
+	font-weight: 200 900;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Poppins';
 	src: url('/fonts/Poppins/Poppins-Regular.ttf');
 	font-weight: 400;

@@ -14,13 +14,14 @@ const config: Config = {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Quicksand', 'sans-serif'],
+				sans: ['Karla', 'sans-serif'],
 				sans2: ['Poppins', 'sans-serif'],
 				sans3: ['FunnelSans', 'sans-serif'],
-				sans4: ['Karla', 'sans-serif'],
+				sans4: ['Quicksand', 'sans-serif'],
 				display1: ['GloriaHallelujah', 'serif'],
 				display2: ['LondrinaOutline', 'sans-serif'],
 				display3: ['LondrinaSolid', 'sans-serif'],
+				mono1: ['Inconsolata', 'mono'],
 			},
 
 			colors: {

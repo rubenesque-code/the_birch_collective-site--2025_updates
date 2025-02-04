@@ -1,6 +1,9 @@
 <script lang="ts" context="module">
+	import { ArrowRight } from 'lucide-svelte';
+
 	import { image } from '^assets/images';
 	import { Picture } from '^components';
+	import { Button } from '~ui';
 </script>
 
 <div class="flex items-center gap-2 px-4 py-3">
@@ -17,9 +20,9 @@
 	</div>
 
 	<div class="flex flex-grow justify-between">
-		<h2 class="font-display2 text-[30px] tracking-wider">The Birch Collective</h2>
+		<h2 class="font-display2 text-[30px] tracking-wider text-bc-black1">The Birch Collective</h2>
 
-		<div class="flex items-end gap-4 font-sans4">
+		<div class="flex items-end gap-4 text-bc-black1">
 			<p class="">About Us</p>
 
 			<p class="">Programmes</p>
@@ -35,7 +38,7 @@
 			Nature, Community & Connection
 		</h3>
 
-		<div class="text-bc-black1 mt-8 max-w-[450px] font-sans3 leading-[1.8em]">
+		<div class="mt-8 max-w-[450px] leading-[1.8em] text-bc-black1">
 			<p>
 				The Birch Collective helps people aged 16-25 in Bristol and the surrounding areas who might
 				be feeling isolated, overwhelmed, or unsure of their place in the world.
@@ -44,6 +47,17 @@
 				If you’re navigating anxiety, depression, or simply seeking a space to belong, we’re here to
 				walk alongside you—offering support, connection, and moments of joy along the way.
 			</p>
+		</div>
+
+		<div class="mt-12">
+			<p class="font-sans2 text-xs text-bc-brown1">Interested in getting involved?</p>
+
+			<Button
+				class="mt-1 flex items-center gap-1 border-2 border-bc-brown1/80 bg-white text-bc-brown1"
+			>
+				<span class="text-base text-bc-black1 opacity-90">Find out about our programmes</span>
+				<span class=""><ArrowRight size="17" /></span>
+			</Button>
 		</div>
 	</div>
 
