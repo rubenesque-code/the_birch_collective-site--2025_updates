@@ -50,12 +50,10 @@
 		</div>
 
 		<div class="mt-12">
-			<p class="font-sans2 text-xs text-bc-brown1">Interested in getting involved?</p>
+			<!-- <p class="font-sans2 text-xs text-bc-brown1">Interested in getting involved?</p> -->
 
-			<Button
-				class="mt-1 flex items-center gap-1 border-2 border-bc-brown1/80 bg-white text-bc-brown1"
-			>
-				<span class="text-base text-bc-black1 opacity-90">Find out about our programmes</span>
+			<Button class="mt-1 flex items-center gap-1 bg-bc-brown1">
+				<span class="text-base text-white">Get Involved</span>
 				<span class=""><ArrowRight size="17" /></span>
 			</Button>
 
@@ -98,11 +96,15 @@
 	</div>
 </div>
 
-<div class="mt-24 px-3">
-	<h2 class="text-center font-display3 text-4xl tracking-wide">What we do</h2>
+<div class="mt-24 px-16">
+	<div class="flex items-center gap-8">
+		<h2 class="font-display3 text-4xl tracking-wide text-bc-black1">What's on</h2>
+
+		<p class="mt-4 text-sm font-bold uppercase text-bc-black1">See all</p>
+	</div>
 
 	<div class="mt-12 grid grid-cols-2">
-		<div>
+		<!-- 		<div>
 			<p class="max-w-[450px]">
 				We run outdoor group experiences that bring you closer to nature, yourself and others. Our
 				sessions are about more than just spending time outside—they’re about building a community
@@ -121,6 +123,6 @@
 
 		<div>
 			<p class="max-w-[450px]"></p>
-		</div>
+		</div> -->
 	</div>
 </div>
