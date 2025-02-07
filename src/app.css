@@ -136,3 +136,11 @@
 	src: url('/fonts/Londrina_Outline/LondrinaOutline-Regular.ttf');
 	font-display: swap;
 }
+
+@font-face {
+	font-family: 'ITC';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/AvantGardeGothicPro/ITCAvantGardePro-Bold.otf');
+	font-display: swap;
+}

@@ -96,33 +96,29 @@
 	</div>
 </div>
 
-<div class="mt-24 px-16">
+<div class="mb-32 mt-24 px-16">
 	<div class="flex items-center gap-8">
-		<h2 class="font-display3 text-4xl tracking-wide text-bc-black1">What's on</h2>
+		<h2 class="font-display3 text-4xl tracking-wide text-bc-green1">What's on</h2>
 
-		<p class="mt-4 text-sm font-bold uppercase text-bc-black1">See all</p>
+		<p class="mt-4 text-sm font-bold uppercase text-bc-black1/70">See all</p>
 	</div>
 
-	<div class="mt-12 grid grid-cols-2">
-		<!-- 		<div>
-			<p class="max-w-[450px]">
-				We run outdoor group experiences that bring you closer to nature, yourself and others. Our
-				sessions are about more than just spending time outside—they’re about building a community
-				where everyone is accepted for who they are. You’ll learn practical skills, like how to grow
-				your own food or create something beautiful from natural materials, all while connecting
-				with others who understand what you’re going through.
-			</p>
+	<div class="mt-12">
+		<div class="relative aspect-[9/13] w-[400px]">
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="800px"
+				data={image.programme.fresh_air_thursdays.digging_and_planting}
+				alt=""
+			/>
 
-			<h3 class="mt-6 font-display3 text-2xl text-bc-brown1">Get Involved</h3>
+			<div
+				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-yellow1 p-6"
+			>
+				<h4 class="font-display3 text-xl text-bc-brown1">Fresh Air Thursdays</h4>
 
-			<p class="mt-2 max-w-[450px]">
-				The Birch Collective is primarily about helping 16-25 year olds by connecting them to
-				nature, but there are other ways to join in too.
-			</p>
+				<p class="mt-2 text-base text-bc-black1">Get stuck in at our weekly meet-up.</p>
+			</div>
 		</div>
-
-		<div>
-			<p class="max-w-[450px]"></p>
-		</div> -->
 	</div>
 </div>

@@ -22,6 +22,8 @@ const config: Config = {
 				display2: ['LondrinaOutline', 'sans-serif'],
 				display3: ['LondrinaSolid', 'sans-serif'],
 				mono1: ['Inconsolata', 'mono'],
+
+				itc: ['ITC', 'sans-serif'],
 			},
 
 			colors: {

@@ -1,7 +1,9 @@
 import { birch } from "./birch";
+import { programme } from "./programme";
 
 const image = {
-  birch
+  birch,
+  programme
 }
 
 export { image }
