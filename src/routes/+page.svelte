@@ -103,7 +103,7 @@
 		<p class="mt-4 text-sm font-bold uppercase text-bc-black1/70">See all</p>
 	</div>
 
-	<div class="mt-12">
+	<div class="mt-12 flex items-center gap-12">
 		<div class="relative aspect-[9/13] w-[400px]">
 			<Picture
 				imageClass="w-full h-full object-cover"
@@ -118,6 +118,25 @@
 				<h4 class="font-display3 text-xl text-bc-brown1">Fresh Air Thursdays</h4>
 
 				<p class="mt-2 text-base text-bc-black1">Get stuck in at our weekly meet-up.</p>
+			</div>
+		</div>
+
+		<div class="relative aspect-[9/13] w-[400px]">
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="800px"
+				data={image.programme.camp_birch.lying_in_grass}
+				alt=""
+			/>
+
+			<div
+				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-[#d0f5ff] p-6"
+			>
+				<h4 class="font-display3 text-xl text-bc-black1">Camp Birch</h4>
+
+				<p class="mt-2 text-base text-bc-black1">
+					A free 5 day residential in the Dartmoor wilderness!
+				</p>
 			</div>
 		</div>
 	</div>
