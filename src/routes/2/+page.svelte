@@ -3,30 +3,6 @@
 	import { Picture } from '^components';
 </script>
 
-<!-- <div class="flex items-center gap-2 px-8 py-3">
-	<div class="flex items-center gap-2">
-		<div class="w-[48px]">
-			<Picture
-				loading="eager"
-				imageClass="w-full h-full object-cover"
-				sizes="50px"
-				data={image.birch.logo}
-				alt="The Birch Collective logo"
-			/>
-		</div>
-	</div>
-
-	<div class="flex flex-grow justify-between">
-		<h2 class="font-display3 text-[30px] tracking-wider text-bc-black1">The Birch Collective</h2>
-
-		<div class="flex items-end gap-4 text-bc-black1">
-			<p class="">About Us</p>
-
-			<p class="">Programmes</p>
-		</div>
-	</div>
-</div> -->
-
 <div class="">
 	<div class="relative aspect-video w-full">
 		<Picture
@@ -37,30 +13,18 @@
 		/>
 
 		<div class="absolute inset-0 border-[10px] border-bc-yellow1">
-			<div class="flex w-full items-center justify-between px-8 pt-4">
-				<!-- <div class="w-[48px]">
-					<Picture
-						loading="eager"
-						imageClass="w-full h-full object-cover"
-						sizes="50px"
-						data={image.birch.logo_2}
-						alt="The Birch Collective logo"
-					/>
-				</div> -->
-			</div>
-
-			<div class="px-8">
-				<h1 class="font-display3 text-[40px] leading-[1.2] tracking-wider text-white">
+			<div class="px-8 pt-3">
+				<h1 class="font-display3 text-[30px] leading-[1.2] tracking-wider text-white">
 					The Birch<br />Collective
 				</h1>
 			</div>
 
 			<div class="mt-[160px] px-6">
-				<h2 class="px-8 font-sans3 text-[40px] font-bold text-white">
+				<h2 class="px-8 font-sans3 text-[34px] font-bold text-white">
 					Nature, Community & Connection
 				</h2>
 
-				<p class="mt-12 max-w-[620px] px-8 text-[22px] font-bold text-white">
+				<p class="mt-12 max-w-[620px] px-8 text-[21px] font-bold text-white">
 					The Birch Collective helps people aged 16-25 in Bristol and surrounding areas who might be
 					feeling isolated, overwhelmed, or unsure of their place in the world.
 				</p>
