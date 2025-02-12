@@ -10,10 +10,10 @@
 	// other ways to get involved: graduates of the programme; volunteer; donate;
 </script>
 
-<div class="relative">
-	<div class="fixed left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div>
+<section class="relative">
+	<div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div>
 
-	<div class="relative mt-[50px] aspect-[17/9] w-full overflow-hidden">
+	<div class="relative aspect-[17/9] w-full overflow-hidden pt-[50px]">
 		<div class="px-8">
 			<Picture
 				imageClass="w-full h-full object-cover"
@@ -23,7 +23,7 @@
 			/>
 		</div>
 
-		<div class="absolute inset-0">
+		<div class="absolute inset-0 translate-y-[50px]">
 			<div class="mt-[50px] px-12">
 				<div class="flex items-center gap-3 px-8">
 					<div class="w-[60px]">
@@ -62,9 +62,9 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="mb-32 mt-24 px-16">
+<section class="mb-32 mt-24 px-16">
 	<div class="flex items-center gap-8">
 		<h2 class="font-display3 text-4xl tracking-wide text-bc-green1">What's on</h2>
 
@@ -108,4 +108,38 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
+
+<section class="mt-[200px]">
+	<div class="relative">
+		<div class="px-10">
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="800px"
+				data={image.new_and_pro.sitting_in_foreground_hugging_in_background}
+				alt=""
+			/>
+		</div>
+
+		<!-- <div class="absolute -z-10 aspect-video w-full -translate-y-1/2">
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="800px"
+				data={image.new_and_pro.drone_sitting_in_circle_1}
+				alt=""
+			/>
+		</div> -->
+
+		<div
+			class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-green1 py-16"
+		>
+			<h2 class="text-center font-display3 text-[33px] font-bold text-bc-black1">
+				A Place of Community & Care
+			</h2>
+
+			<p class="mt-6 text-center text-base text-bc-black1">
+				Find support and frienship amongst like-minded people
+			</p>
+		</div>
+	</div>
+</section>
