@@ -37,10 +37,20 @@
 					Nature, Community<br /> & Connection
 				</h2>
 
-				<p class="mt-12 max-w-[320px] px-8 text-[21px] text-white">
+				<p class="mt-12 max-w-[520px] px-8 text-[21px] font-semibold text-white">
+					Are you 16 — 25 years old and from in or around Bristol?
+				</p>
+				<p class="mt-2 max-w-[520px] px-8 text-[21px] font-semibold text-white">
+					Get involved this week!
+				</p>
+				<p class="mt-2 max-w-[520px] px-8 text-[21px] font-semibold text-white">
+					We run nature based courses to help mental health, anxiety, or just to connect to nature!
+				</p>
+
+				<!-- <p class="mt-12 max-w-[320px] px-8 text-[21px] text-white">
 					The Birch Collective helps people aged 16-25 in Bristol and surrounding areas who might be
 					feeling isolated, overwhelmed, or unsure of their place in the world.
-				</p>
+				</p> -->
 			</div>
 		</div>
 	</div>
