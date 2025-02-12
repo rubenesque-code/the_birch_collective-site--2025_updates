@@ -3,28 +3,41 @@
 	import { Picture } from '^components';
 </script>
 
-<div class="">
-	<div class="relative aspect-video w-full">
-		<Picture
-			imageClass="w-full h-full object-cover"
-			sizes="800px"
-			data={image.programme.camp_birch.lying_in_grass}
-			alt=""
-		/>
+<div class="relative">
+	<div class="fixed left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div>
 
-		<div class="absolute inset-0 border-[10px] border-bc-yellow1">
-			<div class="px-8 pt-3">
-				<h1 class="font-display3 text-[30px] leading-[1.2] tracking-wider text-white">
-					The Birch<br />Collective
-				</h1>
-			</div>
+	<div class="relative mt-[50px] aspect-[17/9] w-full overflow-hidden">
+		<div class="px-8">
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="800px"
+				data={image.new_and_pro.stay_calm_and_listen_to_nature}
+				alt=""
+			/>
+		</div>
 
-			<div class="mt-[160px] px-6">
-				<h2 class="px-8 font-sans3 text-[34px] font-bold text-white">
-					Nature, Community & Connection
+		<div class="absolute inset-0">
+			<div class="mt-[50px] px-12">
+				<div class="flex items-center gap-3 px-8">
+					<div class="w-[60px]">
+						<Picture
+							imageClass="w-full h-full object-cover"
+							sizes="80px"
+							data={image.birch.logo_2}
+							alt=""
+						/>
+					</div>
+					<h1
+						class="font-display3 text-[25px] font-extrabold uppercase leading-[1.2] tracking-wide text-bc-sky-blue"
+					>
+						The Birch<br /> Collective
+					</h1>
+				</div>
+				<h2 class="mt-12 px-8 font-sans3 text-[33px] font-bold text-white">
+					Nature, Community<br /> & Connection
 				</h2>
 
-				<p class="mt-12 max-w-[620px] px-8 text-[21px] font-bold text-white">
+				<p class="mt-12 max-w-[320px] px-8 text-[21px] text-white">
 					The Birch Collective helps people aged 16-25 in Bristol and surrounding areas who might be
 					feeling isolated, overwhelmed, or unsure of their place in the world.
 				</p>

@@ -32,7 +32,9 @@
 
 <div class="mt-[100px] flex justify-between gap-12 px-3">
 	<div>
-		<h1 class="font-display3 text-[45px] tracking-wider text-[#4c803f]">The Birch Collective</h1>
+		<h1 class="font-display3 text-[45px] leading-[3.2rem] tracking-wider text-[#4c803f]">
+			The Birch Collective
+		</h1>
 
 		<h3 class="mt-4 font-display3 text-[24px] tracking-widest text-[#ffeba0]">
 			Nature, Community & Connection
@@ -97,7 +99,7 @@
 </div>
 
 <div class="mb-32 mt-24 px-16">
-	<div class="flex items-center gap-8">
+	<!-- 	<div class="flex items-center gap-8">
 		<h2 class="font-display3 text-4xl tracking-wide text-bc-green1">What's on</h2>
 
 		<p class="mt-4 text-sm font-bold uppercase text-bc-black1/70">See all</p>
@@ -139,5 +141,5 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
