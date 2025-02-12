@@ -1,6 +1,8 @@
 <script lang="ts" context="module">
 	import { image } from '^assets/images';
 	import { Picture } from '^components';
+
+	// sections: a place of community + care; reviews/quotes, including non-participants; supporters/partners; section aimed at colleges, etc where they book a block;
 </script>
 
 <div class="relative">
