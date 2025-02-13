@@ -36,8 +36,10 @@ const config: Config = {
 				'bc-sky-blue': '#6AC4FF',
 				'bc-soft-green': '#6BBF8A',
 				'bc-lime-green': '#C6E86F',
-				'bc-vivid-green': '#4CAF50 ',
+				'bc-vivid-green': '#4CAF50',
 				'bc-warm-brown': '#8B572A',
+				'bc-golden-yellow': '#FFC300',
+				'bc-bright-orange': '#FF8C42',
 				'bc-soft-black': '#2C2C2C',
 
 				border: "hsl(var(--border) / <alpha-value>)",

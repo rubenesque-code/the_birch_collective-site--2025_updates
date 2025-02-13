@@ -62,8 +62,9 @@
 				<div class="mt-10 px-8">
 					<Button
 						class="flex items-center gap-2 rounded-full bg-bc-sky-blue px-10 py-4 font-sans2 text-lg font-semibold "
-						><span>Get Connected</span><span><ArrowRight /></span></Button
-					>
+						><span>Get Connected</span>
+						<span><ArrowRight /></span>
+					</Button>
 				</div>
 			</div>
 		</div>
@@ -76,7 +77,9 @@
 
 		<div class="relative">
 			<p class="mt-4 flex items-center gap-2 text-sm font-bold uppercase text-bc-black1/70">
-				<span>See all</span><span><TreesIcon size="16" fill="#C6E86F" /></span>
+				<span>See all</span><span>
+					<!-- <TreesIcon size="16" fill="#C6E86F" /> -->
+				</span>
 			</p>
 
 			<!-- <div class="absolute bottom-0 h-[8px] w-[110%] translate-y-[95%] bg-bc-warm-brown"></div> -->
@@ -110,7 +113,7 @@
 			/>
 
 			<div
-				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-lime-green p-6"
+				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-coral-pink p-6"
 			>
 				<h4 class="font-display3 text-xl text-bc-black1">Camp Birch</h4>
 
