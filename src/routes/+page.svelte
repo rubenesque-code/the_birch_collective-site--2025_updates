@@ -11,10 +11,11 @@
 </script>
 
 <section class="relative">
-	<div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div>
+	<!-- <div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div> -->
+	<div class="polygon absolute left-0 top-0 -z-10 h-[300px] bg-bc-yellow1"></div>
 
-	<div class="relative aspect-[17/9] w-full overflow-hidden pt-[50px]">
-		<div class="px-8">
+	<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
+		<div class="h-[600px]">
 			<Picture
 				imageClass="w-full h-full object-cover"
 				sizes="800px"
@@ -110,7 +111,7 @@
 	</div>
 </section>
 
-<section class="mt-[200px]">
+<!-- <section class="mt-[200px]">
 	<div class="relative">
 		<div class="px-10">
 			<Picture
@@ -121,14 +122,6 @@
 			/>
 		</div>
 
-		<!-- <div class="absolute -z-10 aspect-video w-full -translate-y-1/2">
-			<Picture
-				imageClass="w-full h-full object-cover"
-				sizes="800px"
-				data={image.new_and_pro.drone_sitting_in_circle_1}
-				alt=""
-			/>
-		</div> -->
 
 		<div
 			class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-green1 py-16"
@@ -142,4 +135,11 @@
 			</p>
 		</div>
 	</div>
-</section>
+</section> -->
+
+<style>
+	.polygon {
+		width: 100%;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 66.67%, 0% 100%);
+	}
+</style>

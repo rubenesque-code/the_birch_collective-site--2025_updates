@@ -32,10 +32,12 @@ const config: Config = {
 				'bc-brown1': '#bb7731',
 				'bc-black1': '#241c13',
 
-				'bc-soft-green': '#6BBF8A',
 				'bc-coral-pink': '#FF8F8F',
 				'bc-sky-blue': '#6AC4FF',
+				'bc-soft-green': '#6BBF8A',
 				'bc-lime-green': '#C6E86F',
+				'bc-vivid-green': '#4CAF50 ',
+				'bc-warm-brown': '#8B572A',
 				'bc-soft-black': '#2C2C2C',
 
 				border: "hsl(var(--border) / <alpha-value>)",
