@@ -33,6 +33,7 @@ const config: Config = {
 				'bc-black1': '#241c13',
 
 				'bc-coral-pink': '#FF8F8F',
+				'bc-pastel-red': '#FF6F61',
 				'bc-sky-blue': '#6AC4FF',
 				'bc-soft-green': '#6BBF8A',
 				'bc-lime-green': '#C6E86F',

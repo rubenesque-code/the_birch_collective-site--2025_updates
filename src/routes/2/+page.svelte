@@ -14,7 +14,7 @@
 
 <section class="relative">
 	<!-- <div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div> -->
-	<div class="polygon absolute left-0 top-0 -z-10 h-[300px] bg-bc-soft-green"></div>
+	<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
 
 	<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
 		<div class="polygon2 h-[600px]">
@@ -28,18 +28,18 @@
 
 		<div class="absolute inset-0 translate-y-[50px]">
 			<div class="mt-[50px] px-12">
-				<div class="flex items-center gap-3 px-8">
-					<div class="w-[60px]">
+				<div class="flex items-center gap-[9px] px-8">
+					<!-- <div class="w-[58px]">
 						<Picture
 							imageClass="w-full h-full object-cover"
 							sizes="80px"
 							data={image.birch.logo_image_white}
 							alt=""
 						/>
-					</div>
+					</div> -->
 
 					<h1
-						class="font-display3 text-[25px] font-extrabold uppercase leading-[1.2] tracking-wide text-white"
+						class="text-center font-display3 text-[25px] font-extrabold uppercase leading-[1.2] tracking-[0.08em] text-white"
 					>
 						The Birch<br /> Collective
 					</h1>
@@ -125,40 +125,70 @@
 	</div>
 </section>
 
-<!-- <section class="mt-[200px]">
-	<div class="relative">
-		<div class="px-10">
-			<Picture
-				imageClass="w-full h-full object-cover"
-				sizes="800px"
-				data={image.new_and_pro.sitting_in_foreground_hugging_in_background}
-				alt=""
-			/>
-		</div>
+<section class="mb-32 mt-[200px] px-16">
+	<div class="flex items-center gap-8">
+		<h2 class="font-display3 text-4xl tracking-wide text-bc-black1">Help out</h2>
 
-
-		<div
-			class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-green1 py-16"
-		>
-			<h2 class="text-center font-display3 text-[33px] font-bold text-bc-black1">
-				A Place of Community & Care
-			</h2>
-
-			<p class="mt-6 text-center text-base text-bc-black1">
-				Find support and frienship amongst like-minded people
+		<div class="relative">
+			<p class="mt-4 flex items-center gap-2 text-sm font-bold uppercase text-bc-black1/70">
+				<span>View more</span><span> </span>
 			</p>
 		</div>
 	</div>
-</section> -->
+
+	<div class="mt-12 flex items-center gap-12">
+		<div class="relative aspect-square w-[400px]">
+			<div class="polygon3 aspect-square w-full">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="800px"
+					data={image.new_and_pro.helper_foreground_smiling}
+					alt=""
+				/>
+			</div>
+
+			<div
+				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-vivid-green p-6"
+			>
+				<h4 class="font-display3 text-xl text-bc-black1">Volunteer</h4>
+
+				<p class="mt-2 text-base text-bc-black1">
+					Have a desire to help young people and nature? We want you!
+				</p>
+			</div>
+		</div>
+
+		<div class="relative aspect-square w-[400px]">
+			<div class="polygon3 aspect-square w-full">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="800px"
+					data={image.new_and_pro.drone_sitting_in_circle_close}
+					alt=""
+				/>
+			</div>
+
+			<div
+				class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-pastel-red p-6"
+			>
+				<h4 class="font-display3 text-xl text-bc-black1">Donate</h4>
+
+				<p class="mt-2 text-base text-bc-black1">Help us keep going and reach more young people.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 <style>
 	.polygon {
-		width: 100%;
 		clip-path: polygon(0% 0%, 100% 0%, 100% 66.67%, 0% 100%);
 	}
 
 	.polygon2 {
-		width: 100%;
 		clip-path: polygon(0% 4%, 97% 0%, 100% 95%, 2% 100%);
+	}
+
+	.polygon3 {
+		clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 2% 100%);
 	}
 </style>
