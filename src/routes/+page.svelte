@@ -12,8 +12,8 @@
 	// other ways to get involved: graduates of the programme; volunteer; donate;
 </script>
 
-<div class="flex justify-center bg-gray-100">
-	<div class="w-full max-w-[1050px] bg-white">
+<div class="flex justify-center">
+	<div class="relative w-full max-w-[1050px]">
 		<section class="relative">
 			<!-- <div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div> -->
 			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
