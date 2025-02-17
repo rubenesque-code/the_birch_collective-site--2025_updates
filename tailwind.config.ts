@@ -41,6 +41,7 @@ const config: Config = {
 				'bc-warm-brown': '#8B572A',
 				'bc-golden-yellow': '#FFC300',
 				'bc-bright-orange': '#FF8C42',
+				'bc-soft-yellow': '#FFF3B0',
 				'bc-soft-black': '#2C2C2C',
 
 				border: "hsl(var(--border) / <alpha-value>)",
