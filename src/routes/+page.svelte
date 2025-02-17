@@ -3,13 +3,20 @@
 	import { Picture } from '^components';
 	import { ArrowRight, Quote } from 'lucide-svelte';
 	import { Button } from '~ui';
+
+	// SECTIONS
+	// - sign up to newslettr
+	// - latest news
 </script>
 
 <div class="flex justify-center">
 	<div class="relative w-full max-w-[1050px]">
 		<section class="relative">
-			<!-- <div class="absolute left-0 top-0 -z-10 h-[250px] w-full bg-bc-yellow1"></div> -->
 			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
+
+			<div
+				class="polygon absolute bottom-0 left-0 -z-10 h-[300px] w-full translate-y-[20px] rotate-180 bg-bc-sky-blue"
+			></div>
 
 			<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
 				<div class="polygon2 h-[600px]">
@@ -73,17 +80,13 @@
 
 				<div class="relative">
 					<p class="mt-4 flex items-center gap-2 text-sm font-bold uppercase text-bc-black1/70">
-						<span>See all</span><span>
-							<!-- <TreesIcon size="16" fill="#C6E86F" /> -->
-						</span>
+						<span>See all</span><span> </span>
 					</p>
-
-					<!-- <div class="absolute bottom-0 h-[8px] w-[110%] translate-y-[95%] bg-bc-warm-brown"></div> -->
 				</div>
 			</div>
 
 			<div class="mt-12 flex items-center gap-12">
-				<div class="relative aspect-[9/13] w-[400px]">
+				<a class="group/card relative aspect-[9/13] w-[400px]" href="/fresh-air-thursday">
 					<Picture
 						imageClass="w-full h-full object-cover"
 						sizes="800px"
@@ -92,13 +95,21 @@
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
 						<h4 class="font-display3 text-xl text-bc-black1">Fresh Air Thursdays</h4>
 
-						<p class="mt-2 text-base text-bc-black1">Get stuck in at our weekly meet-up.</p>
+						<div class="flex items-center gap-4">
+							<p class="mt-2 text-base text-bc-black1">Get stuck in at our weekly meet-up.</p>
+
+							<span
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-white"
+							>
+								<ArrowRight size="17" />
+							</span>
+						</div>
 					</div>
-				</div>
+				</a>
 
 				<div class="relative aspect-[9/13] w-[400px]">
 					<Picture
