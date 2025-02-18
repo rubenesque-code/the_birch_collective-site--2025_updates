@@ -14,59 +14,63 @@
 		<section class="relative">
 			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
 
-			<div
+			<!-- 			<div
 				class="polygon absolute bottom-0 left-0 -z-10 h-[300px] w-full translate-y-[20px] rotate-180 bg-bc-sky-blue"
-			></div>
+			></div> -->
 
 			<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
-				<div class="polygon2 h-[600px]">
-					<Picture
-						imageClass="w-full h-full object-cover"
-						sizes="800px"
-						data={image.new_and_pro.stay_calm_and_listen_to_nature}
-						alt=""
-					/>
+				<div class="polygon2 relative h-[600px]">
+					<div class="absolute inset-0">
+						<Picture
+							imageClass="w-full h-full object-cover"
+							sizes="800px"
+							data={image.new_and_pro.stay_calm_and_listen_to_nature}
+							alt=""
+						/>
+					</div>
+
+					<div
+						class="absolute bottom-0 left-0 z-10 h-1/2 w-full bg-gradient-to-t from-bc-soft-black to-transparent"
+					></div>
 				</div>
 
 				<div class="absolute inset-0 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
 						<div class="flex items-center gap-[9px] px-8">
 							<!-- <div class="w-[58px]">
-						<Picture
-							imageClass="w-full h-full object-cover"
-							sizes="80px"
-							data={image.birch.logo_image_white}
-							alt=""
-						/>
-					</div> -->
+								<Picture
+									imageClass="w-full h-full object-cover"
+									sizes="80px"
+									data={image.birch.logo_image_white}
+									alt=""
+								/>
+							</div> -->
 
 							<h1
-								class="text-center font-display3 text-[25px] font-extrabold uppercase leading-[1.2] tracking-[0.08em] text-white"
+								class="text-center font-display3 text-[24px] font-[650] leading-[1.2] tracking-tight text-white"
 							>
-								The Birch<br /> Collective
+								<!-- The Birch<br /> Collective -->
 							</h1>
 						</div>
 
-						<h2 class="mt-32 px-8 font-sans3 text-[33px] font-bold text-white">
-							Nature, Community & Connection
+						<h2 class="mt-32 px-8 font-display3 text-[34px] tracking-wide text-white">
+							Nature, Community<br />& Connection
 						</h2>
 
-						<p class="mt-6 max-w-[520px] px-8 text-[18px] font-semibold text-white">
-							Are you 16 — 25 years old and from in or around Bristol?
-						</p>
-						<p class="mt-2 max-w-[520px] px-8 text-[18px] font-semibold text-white">
-							Get involved this week!
-						</p>
-						<p class="mt-2 max-w-[520px] px-8 text-[18px] font-semibold text-white">
-							We run nature based courses to help mental health, anxiety, or just to connect to
-							nature!
-						</p>
+						<div class="mt-8 max-w-[768px] px-8 font-sans3 text-[21px] text-white">
+							<p>Are you 16 — 25 years old and from in or around Bristol?</p>
+							<p class="mt-2">Get involved this week!</p>
+							<p class="mt-2">
+								We run nature based courses to help mental health, anxiety, or just to connect to
+								nature!
+							</p>
+						</div>
 
 						<div class="mt-10 px-8">
 							<Button
-								class="flex items-center gap-2 rounded-full bg-bc-sky-blue px-10 py-4 font-sans2 text-lg font-semibold "
-								><span>Get Connected</span>
-								<span><ArrowRight /></span>
+								class="flex items-center gap-[10px] rounded-full bg-bc-soft-green px-10 py-4 font-sans2 text-white "
+								><span class="text-[17px] font-[700] uppercase tracking-wider">Get Connected</span>
+								<span><ArrowRight size="19" /></span>
 							</Button>
 						</div>
 					</div>
@@ -103,7 +107,7 @@
 							<p class="mt-2 text-base text-bc-black1">Get stuck in at our weekly meet-up.</p>
 
 							<span
-								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-white"
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-bc-soft-black group-hover/card:text-white"
 							>
 								<ArrowRight size="17" />
 							</span>

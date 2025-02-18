@@ -108,6 +108,15 @@
 }
 
 @font-face {
+	font-family: 'FunnelDisplay';
+	src: url('/fonts/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf')
+		format('truetype-variations');
+	font-optical-sizing: auto;
+	font-weight: 300 900;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Poppins';
 	src: url('/fonts/Poppins/Poppins-Regular.ttf');
 	font-weight: 400;
@@ -142,5 +151,21 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url('/fonts/AvantGardeGothicPro/ITCAvantGardePro-Bold.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'YujiBoku-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/YujiBoku-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'YujiSyuku-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/YujiSyuku-Regular.ttf');
 	font-display: swap;
 }

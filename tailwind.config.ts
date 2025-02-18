@@ -24,6 +24,9 @@ const config: Config = {
 				mono1: ['Inconsolata', 'mono'],
 
 				itc: ['ITC', 'sans-serif'],
+				'funnel-display': ['FunnelDisplay', 'sans-serif'],
+				'yuji-boku': ['YujiBoku-Regular', 'serif'],
+				'yuji-syuku': ['YujiSyuku-Regular', 'serif'],
 			},
 
 			colors: {
