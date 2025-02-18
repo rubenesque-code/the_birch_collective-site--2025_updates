@@ -37,36 +37,36 @@
 				<div class="absolute inset-0 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
 						<div class="flex items-center gap-[9px] px-8">
-							<!-- <div class="w-[48px]">
+							<div class="w-[48px]">
 								<Picture
 									imageClass="w-full h-full object-cover"
 									sizes="80px"
 									data={image.birch.logo_image_white_yellow}
 									alt=""
 								/>
-							</div> -->
+							</div>
 
 							<h1
-								class="text-center font-display3 text-[24px] font-[800] leading-[1.2] tracking-tighter opacity-90"
+								class="text-center font-display3 text-[30px] font-[600] leading-[1.2] tracking-[-0.13em] opacity-90"
 							>
 								<span class="text-bc-sky-blue">T</span>
 								<span class="text-bc-coral-pink">h</span>
 								<span class="mr-2 text-bc-pastel-red">e</span>
 								<span class="text-bc-soft-green">B</span>
 								<span class="text-bc-lime-green">i</span>
-								<span>r</span>
-								<span>c</span>
-								<span>h </span>
-								<span>C</span>
-								<span>o</span>
-								<span>l</span>
-								<span>l</span>
-								<span>e</span>
-								<span>c</span>
-								<span>t</span>
-								<span>i</span>
-								<span>v</span>
-								<span>e</span>
+								<span class="text-white">r</span>
+								<span class="text-bc-golden-yellow">c</span>
+								<span class="mr-2 text-bc-bright-orange">h </span>
+								<span class="text-bc-warm-brown">C</span>
+								<span class="text-bc-sky-blue">o</span>
+								<span class="text-bc-pastel-red">l</span>
+								<span class="text-bc-lime-green">l</span>
+								<span class="text-bc-golden-yellow">e</span>
+								<span class="text-bc-soft-green">c</span>
+								<span class="text-bc-vivid-green">t</span>
+								<span class="text-bc-coral-pink">i</span>
+								<span class="text-bc-golden-yellow">v</span>
+								<span class="text-bc-soft-yellow">e</span>
 							</h1>
 							<!-- <h1
 								class="image-text text-center font-display3 text-[24px] font-[400] uppercase leading-[1.2] tracking-wide"
