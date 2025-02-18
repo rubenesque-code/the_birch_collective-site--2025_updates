@@ -37,23 +37,45 @@
 				<div class="absolute inset-0 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
 						<div class="flex items-center gap-[9px] px-8">
-							<!-- <div class="w-[58px]">
+							<!-- <div class="w-[48px]">
 								<Picture
 									imageClass="w-full h-full object-cover"
 									sizes="80px"
-									data={image.birch.logo_image_white}
+									data={image.birch.logo_image_white_yellow}
 									alt=""
 								/>
 							</div> -->
 
 							<h1
-								class="text-center font-display3 text-[24px] font-[650] leading-[1.2] tracking-tight text-white"
+								class="text-center font-display3 text-[24px] font-[800] leading-[1.2] tracking-tighter opacity-90"
 							>
-								<!-- The Birch<br /> Collective -->
+								<span class="text-bc-sky-blue">T</span>
+								<span class="text-bc-coral-pink">h</span>
+								<span class="mr-2 text-bc-pastel-red">e</span>
+								<span class="text-bc-soft-green">B</span>
+								<span class="text-bc-lime-green">i</span>
+								<span>r</span>
+								<span>c</span>
+								<span>h </span>
+								<span>C</span>
+								<span>o</span>
+								<span>l</span>
+								<span>l</span>
+								<span>e</span>
+								<span>c</span>
+								<span>t</span>
+								<span>i</span>
+								<span>v</span>
+								<span>e</span>
 							</h1>
+							<!-- <h1
+								class="image-text text-center font-display3 text-[24px] font-[400] uppercase leading-[1.2] tracking-wide"
+							>
+								The Birch Collective
+							</h1> -->
 						</div>
 
-						<h2 class="mt-32 px-8 font-display3 text-[34px] tracking-wide text-white">
+						<h2 class="mt-20 px-8 font-display3 text-[34px] tracking-wide text-white">
 							Nature, Community<br />& Connection
 						</h2>
 
@@ -69,7 +91,9 @@
 						<div class="mt-10 px-8">
 							<Button
 								class="flex items-center gap-[10px] rounded-full bg-bc-soft-green px-10 py-4 font-sans2 text-white "
-								><span class="text-[17px] font-[700] uppercase tracking-wider">Get Connected</span>
+								><span class="font-sans3 text-[17px] font-[600] uppercase tracking-[0.06em]"
+									>Get Connected</span
+								>
 								<span><ArrowRight size="19" /></span>
 							</Button>
 						</div>
@@ -437,5 +461,16 @@
 
 	.polygon3 {
 		clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 2% 100%);
+	}
+
+	.image-text {
+		background-image: url('images/golden_yellow_with_white_pattern.png'); /* Replace with your image path */
+		background-size: cover;
+		background-repeat: repeat;
+		background-clip: text; /* Clips the background to the text */
+		-webkit-background-clip: text; /* For Safari/Chrome */
+		-webkit-text-fill-color: transparent; /* Makes the text transparent so the image shows through */
+		color: transparent; /* Fallback for non-WebKit browsers */
+		background-size: 100%;
 	}
 </style>

@@ -150,7 +150,7 @@
 	font-family: 'ITC';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/fonts/AvantGardeGothicPro/ITCAvantGardePro-Bold.otf');
+	src: url('/fonts/AvantGardeGothicPro/ITCAvantGardePro-Bk.otf');
 	font-display: swap;
 }
 
@@ -167,5 +167,29 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url('/fonts/YujiSyuku-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ZenLoop';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Zen_Loop/ZenLoop-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'AlumniSansPinstripe';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Alumni_Sans_Pinstripe/AlumniSansPinstripe-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EigerdalsReg';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Eigerdals/Eigerdals-Reg.woff');
 	font-display: swap;
 }

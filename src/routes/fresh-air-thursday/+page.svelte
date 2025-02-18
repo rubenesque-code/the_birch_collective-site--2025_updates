@@ -10,7 +10,7 @@
 <div class="flex justify-center">
 	<div class="relative w-full max-w-[1050px]">
 		<section class="relative">
-			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
+			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-golden-yellow"></div>
 
 			<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
 				<div class="polygon2 h-[600px]">

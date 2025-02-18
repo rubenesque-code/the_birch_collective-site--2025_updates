@@ -27,6 +27,9 @@ const config: Config = {
 				'funnel-display': ['FunnelDisplay', 'sans-serif'],
 				'yuji-boku': ['YujiBoku-Regular', 'serif'],
 				'yuji-syuku': ['YujiSyuku-Regular', 'serif'],
+				'zen-loop': ['ZenLoop', 'sans-serif'],
+				'alumni-sans-pinstripe': ['AlumniSansPinstripe', 'sans-serif'],
+				'eigerdals': ['EigerdalsReg', 'sans-serif'],
 			},
 
 			colors: {
