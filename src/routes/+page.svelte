@@ -14,10 +14,6 @@
 		<section class="relative">
 			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
 
-			<!-- 			<div
-				class="polygon absolute bottom-0 left-0 -z-10 h-[300px] w-full translate-y-[20px] rotate-180 bg-bc-sky-blue"
-			></div> -->
-
 			<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
 				<div class="polygon2 relative h-[600px]">
 					<div class="absolute inset-0">
@@ -461,16 +457,5 @@
 
 	.polygon3 {
 		clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 2% 100%);
-	}
-
-	.image-text {
-		background-image: url('images/golden_yellow_with_white_pattern.png'); /* Replace with your image path */
-		background-size: cover;
-		background-repeat: repeat;
-		background-clip: text; /* Clips the background to the text */
-		-webkit-background-clip: text; /* For Safari/Chrome */
-		-webkit-text-fill-color: transparent; /* Makes the text transparent so the image shows through */
-		color: transparent; /* Fallback for non-WebKit browsers */
-		background-size: 100%;
 	}
 </style>
