@@ -44,28 +44,6 @@
 								/>
 							</div>
 
-							<!-- <h1
-								class="text-center font-display3 text-[30px] font-[600] leading-[1.2] tracking-[-0.13em] opacity-90"
-							>
-								<span class="text-bc-sky-blue">T</span>
-								<span class="text-bc-coral-pink">h</span>
-								<span class="mr-2 text-bc-pastel-red">e</span>
-								<span class="text-bc-soft-green">B</span>
-								<span class="text-bc-lime-green">i</span>
-								<span class="text-white">r</span>
-								<span class="text-bc-golden-yellow">c</span>
-								<span class="mr-2 text-bc-bright-orange">h </span>
-								<span class="text-bc-warm-brown">C</span>
-								<span class="text-bc-sky-blue">o</span>
-								<span class="text-bc-pastel-red">l</span>
-								<span class="text-bc-lime-green">l</span>
-								<span class="text-bc-golden-yellow">e</span>
-								<span class="text-bc-soft-green">c</span>
-								<span class="text-bc-vivid-green">t</span>
-								<span class="text-bc-coral-pink">i</span>
-								<span class="text-bc-golden-yellow">v</span>
-								<span class="text-bc-soft-yellow">e</span>
-							</h1> -->
 							<h1
 								class="image-text text-center font-yuji-boku text-[22px] tracking-tight text-white"
 							>
@@ -114,14 +92,14 @@
 			<div class="mt-8 flex items-center gap-12">
 				<a class="group/card relative aspect-[9/13] w-[400px]" href="/fresh-air-thursday">
 					<Picture
-						imageClass="w-full h-full object-cover"
+						imageClass="w-full h-full object-cover object-left"
 						sizes="800px"
-						data={image.programme.fresh_air_thursdays.digging_and_planting}
+						data={image.new_and_pro.james_and_helper_talking_to_participant}
 						alt=""
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-pastel-red p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
 						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Fresh Air Thursdays</h4>
 
@@ -148,7 +126,7 @@
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-coral-pink p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
 						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
 

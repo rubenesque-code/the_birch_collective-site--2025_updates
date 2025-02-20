@@ -11,6 +11,7 @@ import fresh_air_thursday_art from "../_files/new-and-professional/fresh_air_thu
 import cooking_pot from "../_files/new-and-professional/cooking_pot.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
 import craft_1 from "../_files/new-and-professional/craft_1.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
 import picking_leaves from "../_files/new-and-professional/picking_leaves.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
+import james_and_helper_talking_to_participant from "../_files/new-and-professional/james_and_helper_talking_to_participant.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
 
 export const new_and_pro = {
   stay_calm_and_listen_to_nature,
@@ -25,6 +26,7 @@ export const new_and_pro = {
   fresh_air_thursday_art,
   cooking_pot,
   craft_1,
-  picking_leaves
+  picking_leaves,
+  james_and_helper_talking_to_participant
 }
 
