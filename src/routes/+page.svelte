@@ -77,14 +77,14 @@
 		</section>
 
 		<section class="mb-32 mt-24 px-16">
-			<div class="flex items-baseline gap-8">
+			<div class="relative inline-flex items-baseline gap-8">
 				<h2 class="font-bebas text-[33px] leading-none tracking-wide text-bc-black1">What's on</h2>
 
-				<div class="relative">
+				<div class="">
 					<p
 						class="flex items-center gap-2 font-bebas text-sm font-bold uppercase leading-none text-bc-black1/70"
 					>
-						<span>See all</span><span> </span>
+						<span>See all</span>
 					</p>
 				</div>
 			</div>
@@ -109,9 +109,9 @@
 							</p>
 
 							<span
-								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
 							>
-								<ArrowRight size="17" />
+								<ArrowRight size="19" />
 							</span>
 						</div>
 					</div>
