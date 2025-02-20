@@ -30,6 +30,14 @@ const config: Config = {
 				'zen-loop': ['ZenLoop', 'sans-serif'],
 				'alumni-sans-pinstripe': ['AlumniSansPinstripe', 'sans-serif'],
 				'eigerdals': ['EigerdalsReg', 'sans-serif'],
+				'futura-book': ['FuturaBook', 'sans-serif'],
+				'futura-heavy': ['FuturaHeavy', 'sans-serif'],
+				'lora': ['Lora', 'serif'],
+				'gilbert': ['GilbertColour', 'sans-serif'],
+				'bebas': ['BebasSemiRounded', 'sans-serif'],
+				'novecento-book': ['NovecentoBook', 'sans-serif'],
+				'novecento-medium': ['NovecentoMedium', 'sans-serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
 			},
 
 			colors: {

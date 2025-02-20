@@ -117,6 +117,22 @@
 }
 
 @font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype-variations');
+	font-optical-sizing: auto;
+	font-weight: 300 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('/fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype-variations');
+	font-optical-sizing: auto;
+	font-weight: 400 800;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Poppins';
 	src: url('/fonts/Poppins/Poppins-Regular.ttf');
 	font-weight: 400;
@@ -191,5 +207,61 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url('/fonts/Eigerdals/Eigerdals-Reg.woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EigerdalsReg';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Eigerdals/Eigerdals-Reg.woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FuturaHeavy';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/futura/Futura\ Heavy\ font.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FuturaBook';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/futura/Futura\ Book\ font.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'GilbertColour';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/Gilbert-Color\ Bold\ Preview_1005.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BebasSemiRounded';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/Bebas\ Neue\ SemiRounded\ Regular/Bebas-Neue-SemiRounded-Regular.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NovecentoBook';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Novecento/Novecento\ Book/Novecento \ Book.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NovecentoMed';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/Novecento/Novecento\ Medium/Novecento \ Medium.ttf');
 	font-display: swap;
 }

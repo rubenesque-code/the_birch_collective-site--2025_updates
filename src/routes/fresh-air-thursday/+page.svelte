@@ -41,7 +41,7 @@
 								/>
 							</div>
 
-							<h1
+							<!-- <h1
 								class="text-center font-display3 text-[30px] font-[600] leading-[1.2] tracking-[-0.13em] opacity-90"
 							>
 								<span class="text-bc-sky-blue">T</span>
@@ -62,7 +62,7 @@
 								<span class="text-bc-coral-pink">i</span>
 								<span class="text-bc-golden-yellow">v</span>
 								<span class="text-bc-soft-yellow">e</span>
-							</h1>
+							</h1> -->
 							<!-- <h1
  								class="image-text text-center font-display3 text-[24px] font-[400] uppercase leading-[1.2] tracking-wide"
  							>
