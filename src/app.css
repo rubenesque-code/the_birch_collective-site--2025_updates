@@ -251,7 +251,7 @@
 }
 
 @font-face {
-	font-family: 'NovecentoBook';
+	font-family: 'Novecento';
 	font-style: normal;
 	font-weight: 400;
 	src: url('/fonts/Novecento/Novecento\ Book/Novecento \ Book.ttf');
@@ -259,9 +259,65 @@
 }
 
 @font-face {
-	font-family: 'NovecentoMed';
+	font-family: 'Novecento';
 	font-style: normal;
 	font-weight: 500;
 	src: url('/fonts/Novecento/Novecento\ Medium/Novecento \ Medium.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NovecentoDemi';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/novecento-sans/Novecento\ WideDemiBold.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Novecento';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/Novecento/Novecento\ Bold/Novecento \ Bold.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NovecentoCondDemi';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Novecento/Novecento\ Bold/Novecento \ Bold.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FinalSix';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/FinalSix/FinalSix\ Book.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FinalSix';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/Final.Six/FinalSix\ Medium.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Ubuntu/Ubuntu-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/Ubuntu/Ubuntu-Medium.ttf');
 	font-display: swap;
 }

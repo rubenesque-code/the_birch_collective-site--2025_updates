@@ -4,6 +4,8 @@
 	import { ArrowRight, Quote } from 'lucide-svelte';
 	import { Button } from '~ui';
 
+	// "get involved this week" can be a graphic sticker
+
 	// SECTIONS
 	// - sign up to newslettr
 	// - latest news
@@ -65,7 +67,7 @@
 								<span class="text-bc-soft-yellow">e</span>
 							</h1> -->
 							<h1
-								class="image-text text-center font-bebas text-[24px] font-[400] uppercase leading-[1.2] tracking-wide text-white"
+								class="image-text text-center font-yuji-boku text-[22px] tracking-tight text-white"
 							>
 								The Birch Collective
 							</h1>
@@ -75,23 +77,19 @@
 							Nature, Community<br />& Connection
 						</h2>
 
-						<div
-							class="mt-8 max-w-[708px] px-8 font-montserrat text-[17px] font-medium leading-relaxed text-white"
-						>
-							<p>Are you 16 — 25 years old and from in or around Bristol?</p>
+						<div class="mt-8 max-w-[600px] px-8 font-ubuntu text-[18px] leading-relaxed text-white">
+							<p class="font-medium">Are you 16 — 25 years old and from in or around Bristol?</p>
 							<p class="mt-2">
 								We run nature based courses to help mental health, anxiety, or just to connect to
 								nature!
 							</p>
-							<p class="mt-2">Get involved this week!</p>
+							<p class="mt-2 underline underline-offset-4">Get involved this week!</p>
 						</div>
 
 						<div class="mt-10 px-8">
 							<Button
 								class="flex items-center gap-[10px] rounded-full bg-bc-soft-green px-10 py-4 font-sans2 text-white "
-								><span class="font-novecento-medium text-[16px] uppercase tracking-wide"
-									>Get Connected</span
-								>
+								><span class="font-bebas text-[21px] uppercase tracking-widest">Get Connected</span>
 								<span><ArrowRight size="19" /></span>
 							</Button>
 						</div>
@@ -106,14 +104,14 @@
 
 				<div class="relative">
 					<p
-						class="flex items-center gap-2 text-sm font-bold uppercase leading-none text-bc-black1/70"
+						class="flex items-center gap-2 font-bebas text-sm font-bold uppercase leading-none text-bc-black1/70"
 					>
 						<span>See all</span><span> </span>
 					</p>
 				</div>
 			</div>
 
-			<div class="mt-12 flex items-center gap-12">
+			<div class="mt-8 flex items-center gap-12">
 				<a class="group/card relative aspect-[9/13] w-[400px]" href="/fresh-air-thursday">
 					<Picture
 						imageClass="w-full h-full object-cover"
@@ -125,10 +123,10 @@
 					<div
 						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
-						<h4 class="font-futura-heavy text-xl text-bc-black1">Fresh Air Thursdays</h4>
+						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Fresh Air Thursdays</h4>
 
 						<div class="flex items-center gap-4">
-							<p class="mt-2 font-lora text-base text-bc-black1">
+							<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
 								Get stuck in at our weekly meet-up.
 							</p>
 
@@ -150,13 +148,21 @@
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-coral-pink p-6"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-coral-pink p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
-						<h4 class="font-display3 text-xl text-bc-black1">Camp Birch</h4>
+						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
 
-						<p class="mt-2 text-base text-bc-black1">
-							A free 5 day residential in the Dartmoor wilderness!
-						</p>
+						<div class="flex items-center gap-4">
+							<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
+								A free 5 day residential in the Dartmoor wilderness!
+							</p>
+
+							<span
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+							>
+								<ArrowRight size="17" />
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>

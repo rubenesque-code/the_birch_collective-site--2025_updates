@@ -14,7 +14,8 @@ const config: Config = {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Karla', 'sans-serif'],
+				karla: ['Karla', 'sans-serif'],
+				ubuntu: ['Ubuntu', 'sans-serif'],
 				sans2: ['Poppins', 'sans-serif'],
 				sans3: ['FunnelSans', 'sans-serif'],
 				sans4: ['Quicksand', 'sans-serif'],
@@ -35,9 +36,10 @@ const config: Config = {
 				'lora': ['Lora', 'serif'],
 				'gilbert': ['GilbertColour', 'sans-serif'],
 				'bebas': ['BebasSemiRounded', 'sans-serif'],
-				'novecento-book': ['NovecentoBook', 'sans-serif'],
-				'novecento-medium': ['NovecentoMedium', 'sans-serif'],
+				'novecento': ['Novecento', 'sans-serif'],
+				'novecento-demi': ['NovecentoDemi', 'sans-serif'],
 				'montserrat': ['Montserrat', 'sans-serif'],
+				'finalsix': ['FinalSix', 'sans-serif'],
 			},
 
 			colors: {
