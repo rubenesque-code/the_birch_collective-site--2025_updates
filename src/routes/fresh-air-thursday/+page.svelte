@@ -16,6 +16,10 @@
 
 	// click on sign up -> choose whether to just send interest or properly sign up.
 	// could have overhead shot as map and then activities with pics coming off it.
+	// see full timetable.
+
+	// keep me up to date.
+	// 2 options: i'm a young person, i'm a caregiver.
 </script>
 
 <div class="flex justify-center">
@@ -200,9 +204,9 @@
 			<h2 class="font-bebas text-[22px] tracking-wide">The Heart of the programme</h2>
 
 			<p class="mt-4 max-w-[700px] font-lora text-lg">
-				Fresh Air Thursday is part of our plan to help young people with their mental health by
-				connecting them to nature. We offer a range of activities designed at a pace to make
-				learning accessible and to draw out your creativity.
+				Fresh Air Thursday is part of our plan to help you with your mental health by connecting to
+				nature. We offer a range of activities designed at a pace to make learning accessible and to
+				draw out your creativity.
 			</p>
 
 			<div class="mt-8">
@@ -216,14 +220,16 @@
 				</div>
 			</div>
 
-			<p class="mt-6 font-ubuntu text-[17px]">Things you might be feeling and ways it can help:</p>
+			<p class="mt-6 font-ubuntu text-[17px]">
+				Things you might be feeling and ways this programme can help:
+			</p>
 
 			<div class="mt-6 flex flex-col gap-4">
 				<div class="flex items-center gap-4">
 					<div class="text-bc-soft-green"><Sprout /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Anyone seeking to spend more time in the outdoors and meet new people.
+							If you want to spend more time in the outdoors and meet new people.
 						</h4>
 					</div>
 				</div>
@@ -232,7 +238,7 @@
 					<div class="text-bc-soft-green"><Scissors /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Struggling with family and relationship issues.
+							Are struggling with family and relationship issues.
 						</h4>
 					</div>
 				</div>
@@ -241,7 +247,7 @@
 					<div class="text-bc-soft-green"><CookingPot /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Struggling to engage with study​​.
+							Are struggling to engage with study.
 						</h4>
 					</div>
 				</div>
@@ -250,7 +256,7 @@
 					<div class="text-bc-soft-green"><SmilePlus /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Experiencing low-level mental health issues.
+							Are experiencing low-level mental health issues.
 						</h4>
 					</div>
 				</div>
