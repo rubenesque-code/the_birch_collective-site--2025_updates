@@ -109,7 +109,7 @@
 							</p>
 
 							<span
-								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
 							>
 								<ArrowRight size="19" />
 							</span>
