@@ -22,7 +22,9 @@ const config: Config = {
 				display1: ['GloriaHallelujah', 'serif'],
 				display2: ['LondrinaOutline', 'sans-serif'],
 				display3: ['LondrinaSolid', 'sans-serif'],
+
 				mono1: ['Inconsolata', 'mono'],
+				'input-serif': ['InputSerif', 'mono'],
 
 				itc: ['ITC', 'sans-serif'],
 				'funnel-display': ['FunnelDisplay', 'sans-serif'],

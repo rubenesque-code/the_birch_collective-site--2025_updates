@@ -321,3 +321,19 @@
 	src: url('/fonts/Ubuntu/Ubuntu-Medium.ttf');
 	font-display: swap;
 }
+
+@font-face {
+	font-family: 'InputSerif';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/input-serif/fonnts.com-InputSerif.otf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'InputSerif';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/fonts/input-serif/fonnts.com-InputSerif_Light.otf');
+	font-display: swap;
+}
