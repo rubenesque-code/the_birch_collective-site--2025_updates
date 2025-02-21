@@ -2,7 +2,16 @@
 	import { image } from '^assets/images';
 
 	import { Picture } from '^components';
-	import { ArrowLeft, ArrowRight, CookingPot, Scissors, SmilePlus, Sprout } from 'lucide-svelte';
+	import {
+		ArrowLeft,
+		ArrowRight,
+		CookingPot,
+		Flower2,
+		Leaf,
+		Scissors,
+		SmilePlus,
+		Sprout
+	} from 'lucide-svelte';
 	import { Button } from '~ui';
 
 	// click on sign up -> choose whether to just send interest or properly sign up.
@@ -10,7 +19,7 @@
 </script>
 
 <div class="flex justify-center">
-	<div class="relative w-full max-w-[1050px]">
+	<div class="relative w-full max-w-[1050px] pb-[200px]">
 		<div class="absolute left-4 top-4 z-10 flex items-center gap-[9px]">
 			<div class="w-[38px]">
 				<Picture
@@ -186,5 +195,121 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
+			<h2 class="font-bebas text-[22px] tracking-wide">The Heart of the programme</h2>
+
+			<p class="mt-4 max-w-[700px] font-lora text-lg">
+				Fresh Air Thursday is part of our plan to help young people with their mental health by
+				connecting them to nature. We offer a range of activities designed at a pace to make
+				learning accessible and to draw out your creativity.
+			</p>
+
+			<div class="mt-8">
+				<div class="relative">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="800px"
+						data={image.new_and_pro.james_and_participant}
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<p class="mt-6 font-ubuntu text-[17px]">Things you might be feeling and ways it can help:</p>
+
+			<div class="mt-6 flex flex-col gap-4">
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><Sprout /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Anyone seeking to spend more time in the outdoors and meet new people.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><Scissors /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Struggling with family and relationship issues.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><CookingPot /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Struggling to engage with study​​.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><SmilePlus /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Experiencing low-level mental health issues.
+						</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
+			<h2 class="font-bebas text-[22px] tracking-wide">
+				How you might be feeling and how this helps
+			</h2>
+
+			<div class="mt-4">
+				<div class="relative">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="800px"
+						data={image.new_and_pro.james_and_participant}
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<div class="mt-6 flex flex-col gap-4">
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><Sprout /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Anyone seeking to spend more time in the outdoors and meet new people.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><Scissors /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Struggling with family and relationship issues.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><CookingPot /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Struggling to engage with study​​.
+						</h4>
+					</div>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<div class="text-bc-soft-green"><SmilePlus /></div>
+					<div class="">
+						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
+							Experiencing low-level mental health issues.
+						</h4>
+					</div>
+				</div>
+			</div>
+		</section> -->
 	</div>
 </div>

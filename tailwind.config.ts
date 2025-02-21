@@ -61,6 +61,7 @@ const config: Config = {
 				'bc-bright-orange': '#FF8C42',
 				'bc-soft-yellow': '#FFF3B0',
 				'bc-soft-black': '#2C2C2C',
+				'bc-wellness-blue': '#3A7CA5',
 
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
