@@ -60,7 +60,7 @@
 
 		<section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
 			<div class="grid grid-cols-2">
-				<div>
+				<div class="flex flex-col">
 					<div class="flex">
 						<h3 class="font-bebas text-xl tracking-wide">Next Session:&nbsp;</h3>
 						<p>
@@ -75,8 +75,12 @@
 						<p class="font-ubuntu">You are 16 - 25 years old!</p>
 					</div>
 
-					<div class="mt-6">
+					<div class="mt-6 flex flex-grow flex-col items-start justify-between">
 						<Button class="bg-bc-soft-black font-lora text-[18px] tracking-wide">Sign Up</Button>
+
+						<!-- <p class="mt-[14px] font-lora text-xs text-bc-soft-black/50">
+							Click <span class="underline underline-offset-2">here</span> for email updates
+						</p> -->
 					</div>
 				</div>
 
@@ -92,6 +96,20 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- <section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
+			<h2 class="font-bebas text-[22px] tracking-wide">About Fresh Air Thursday</h2>
+
+			<p class="mt-4 max-w-[600px] font-ubuntu text-[17px]">
+				Fresh, is our weekly group for 16-25 year olds. We offer a range of activities designed at a
+				pace to make learning accessible and to draw out your creativity.
+			</p>
+
+			<p class="mt-4 max-w-[600px] font-ubuntu text-[16px]">
+				There is no fixed time limit to attendance, attend all year round, once a month or just one
+				off, totally up to you.
+			</p>
+		</section> -->
 
 		<section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
 			<h2 class="font-bebas text-[22px] tracking-wide">Activities</h2>
