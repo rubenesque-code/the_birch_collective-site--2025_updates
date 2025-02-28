@@ -44,9 +44,7 @@
 								/>
 							</div>
 
-							<h1
-								class="image-text text-center font-yuji-boku text-[22px] tracking-tight text-white"
-							>
+							<h1 class="font-yuji-boku text-[22px] tracking-tight text-white">
 								The Birch Collective
 							</h1>
 						</div>

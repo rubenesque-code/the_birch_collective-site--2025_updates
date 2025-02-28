@@ -6,17 +6,22 @@
 		ArrowLeft,
 		ArrowRight,
 		CookingPot,
-		Flower2,
-		Leaf,
 		Scissors,
 		SmilePlus,
-		Sprout
+		Sprout,
+		TentTree,
+		Speech,
+		BookOpenText,
+		Frown,
+		Plus
 	} from 'lucide-svelte';
-	import { Button } from '~ui';
+	import { Button, Checkbox, Input, Label } from '~ui';
 
 	// click on sign up -> choose whether to just send interest or properly sign up.
 	// could have overhead shot as map and then activities with pics coming off it.
 	// see full timetable.
+
+	// link to instagram photos at the bottom
 
 	// keep me up to date.
 	// 2 options: i'm a young person, i'm a caregiver.
@@ -226,7 +231,7 @@
 
 			<div class="mt-6 flex flex-col gap-4">
 				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><Sprout /></div>
+					<div class="text-bc-soft-green"><TentTree /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
 							If you want to spend more time in the outdoors and meet new people.
@@ -235,7 +240,7 @@
 				</div>
 
 				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><Scissors /></div>
+					<div class="text-bc-soft-green"><Speech /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
 							Are struggling with family and relationship issues.
@@ -244,7 +249,7 @@
 				</div>
 
 				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><CookingPot /></div>
+					<div class="text-bc-soft-green"><BookOpenText /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
 							Are struggling to engage with study.
@@ -253,7 +258,7 @@
 				</div>
 
 				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><SmilePlus /></div>
+					<div class="text-bc-soft-green"><Frown /></div>
 					<div class="">
 						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
 							Are experiencing low-level mental health issues.
@@ -263,59 +268,85 @@
 			</div>
 		</section>
 
-		<!-- <section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
-			<h2 class="font-bebas text-[22px] tracking-wide">
-				How you might be feeling and how this helps
-			</h2>
+		<section class="mt-24">
+			<div class="relative w-full">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="80px"
+					data={image.new_and_pro.group_photo_1}
+					alt=""
+				/>
 
-			<div class="mt-4">
-				<div class="relative">
-					<Picture
-						imageClass="w-full h-full object-cover"
-						sizes="800px"
-						data={image.new_and_pro.james_and_participant}
-						alt=""
-					/>
+				<div class="absolute bottom-0 z-10 w-full bg-bc-wellness-blue px-16 py-10 text-white">
+					<h2 class="font-bebas text-[22px] tracking-wide text-white">Our Story</h2>
+
+					<p class="font-m mt-4 text-[19px] font-medium tracking-wide text-white">
+						At The Birch Collective, we believe in the power of <span
+							class="font-yuji-syuku text-[20px] font-light tracking-tight"
+							>nature, community, and connection</span
+						>.
+					</p>
+
+					<p
+						class="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-bc-black1/70 text-white"
+					>
+						<span>Read more</span>
+						<span><Plus size={16} /></span>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="mt-24 px-16">
+			<div class="flex items-baseline gap-4">
+				<p class="font-ubuntu text-lg tracking-wide">I'm in!</p>
+				<p class="font-mono1 text-sm uppercase tracking-wide text-bc-pastel-red">sign up</p>
+			</div>
+			<div
+				class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-pastel-red/50 text-bc-sky-blue/50"
+			></div>
+
+			<div class="mt-2 flex items-baseline gap-4">
+				<p class="font-ubuntu text-[18px] tracking-wide">
+					I'm interested and would like to know more...
+				</p>
+			</div>
+
+			<div>
+				<div class="mt-5 flex items-center gap-4">
+					<Checkbox class="border-bc-sky-blue" id="young" />
+
+					<Label
+						for="young"
+						class="font-mono1 text-sm font-medium uppercase leading-none tracking-wide text-bc-black1 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+					>
+						I'm a participant
+					</Label>
+				</div>
+
+				<div class="mt-5 flex items-center gap-4">
+					<Checkbox class="border-bc-sky-blue" id="caregiver" />
+
+					<Label
+						for="caregiver"
+						class="font-mono1 text-sm font-medium uppercase leading-none tracking-wide text-bc-black1 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+					>
+						I'm a caregiver
+					</Label>
 				</div>
 			</div>
 
-			<div class="mt-6 flex flex-col gap-4">
-				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><Sprout /></div>
-					<div class="">
-						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Anyone seeking to spend more time in the outdoors and meet new people.
-						</h4>
-					</div>
-				</div>
-
-				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><Scissors /></div>
-					<div class="">
-						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Struggling with family and relationship issues.
-						</h4>
-					</div>
-				</div>
-
-				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><CookingPot /></div>
-					<div class="">
-						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Struggling to engage with study​​.
-						</h4>
-					</div>
-				</div>
-
-				<div class="flex items-center gap-4">
-					<div class="text-bc-soft-green"><SmilePlus /></div>
-					<div class="">
-						<h4 class="font-montserrat text-sm font-medium uppercase tracking-wide">
-							Experiencing low-level mental health issues.
-						</h4>
-					</div>
-				</div>
+			<div class="mt-6 flex justify-between border-b border-dashed border-b-bc-soft-black">
+				<Input
+					type="email"
+					placeholder="Enter email"
+					class="rounded-none border-none pl-0 font-mono1 uppercase tracking-wide"
+				/>
+				<Button
+					class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-bc-pastel-red"
+					>Submit</Button
+				>
 			</div>
-		</section> -->
+		</section>
 	</div>
 </div>
