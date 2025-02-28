@@ -277,29 +277,38 @@
 					alt=""
 				/>
 
-				<div class="absolute bottom-0 z-10 w-full bg-bc-wellness-blue px-16 py-10 text-white">
-					<h2 class="font-bebas text-[22px] tracking-wide text-white">Our Story</h2>
+				<div class="absolute inset-0 z-10 flex flex-col">
+					<div class="grid flex-grow place-items-center">
+						<p
+							class="rounded-full border border-dashed border-bc-wellness-blue bg-white px-8 py-3 text-sm uppercase tracking-wide text-bc-wellness-blue"
+						>
+							See more programmes
+						</p>
+					</div>
+					<div class="bg-bc-wellness-blue px-16 py-10 text-white">
+						<h2 class="font-bebas text-[22px] tracking-wide text-white">Our Story</h2>
 
-					<p class="font-m mt-4 text-[19px] font-medium tracking-wide text-white">
-						At The Birch Collective, we believe in the power of <span
-							class="font-yuji-syuku text-[20px] font-light tracking-tight"
-							>nature, community, and connection</span
-						>.
-					</p>
+						<p class="font-m mt-4 text-[19px] font-medium tracking-wide text-white">
+							At The Birch Collective, we believe in the power of <span
+								class="font-yuji-syuku text-[20px] font-light tracking-tight"
+								>nature, community, and connection</span
+							>.
+						</p>
 
-					<p
-						class="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-bc-black1/70 text-white"
-					>
-						<span>Read more</span>
-						<span><Plus size={16} /></span>
-					</p>
+						<p
+							class="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-bc-black1/70 text-white"
+						>
+							<span>Read more</span>
+							<span><Plus size={16} /></span>
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="mt-24 px-16">
 			<div class="flex items-baseline gap-4">
-				<p class="font-ubuntu text-lg tracking-wide">I'm in!</p>
+				<p class="font-ubuntu text-lg tracking-wide">Fresh Air Thursday? I'm in!</p>
 				<p class="font-mono1 text-sm uppercase tracking-wide text-bc-pastel-red">sign up</p>
 			</div>
 			<div
