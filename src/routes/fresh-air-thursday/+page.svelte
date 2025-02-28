@@ -18,13 +18,8 @@
 	import { Button, Checkbox, Input, Label } from '~ui';
 
 	// click on sign up -> choose whether to just send interest or properly sign up.
-	// could have overhead shot as map and then activities with pics coming off it.
-	// see full timetable.
 
 	// link to instagram photos at the bottom
-
-	// keep me up to date.
-	// 2 options: i'm a young person, i'm a caregiver.
 </script>
 
 <div class="flex justify-center">
@@ -83,7 +78,7 @@
 						<h3 class="font-bebas text-xl tracking-wide">Next Session:&nbsp;</h3>
 						<p>
 							This Thursday <span class="mr-[2px] opacity-50">(</span><span
-								class="font-input-serif text-[12.5px] text-bc-sky-blue">25th Feb 2025</span
+								class="font-input-serif text-[12.5px] text-bc-soft-green">25th Feb 2025</span
 							><span class="ml-[2px] opacity-50">)</span>
 						</p>
 					</div>
@@ -94,7 +89,7 @@
 					</div>
 
 					<div class="mt-6 flex flex-grow flex-col items-start justify-between">
-						<Button class="bg-bc-soft-black font-lora text-[18px] tracking-wide">Sign Up</Button>
+						<Button class="bg-bc-pastel-red font-lora text-[18px] tracking-wide">Sign Up</Button>
 
 						<!-- <p class="mt-[14px] font-lora text-xs text-bc-soft-black/50">
 							Click <span class="underline underline-offset-2">here</span> for email updates
@@ -280,15 +275,15 @@
 				<div class="absolute inset-0 z-10 flex flex-col">
 					<div class="grid flex-grow place-items-center">
 						<p
-							class="rounded-full border border-dashed border-bc-wellness-blue bg-white px-8 py-3 text-sm uppercase tracking-wide text-bc-wellness-blue"
+							class="rounded-full border border-dashed border-bc-soft-green bg-white px-8 py-3 text-sm uppercase tracking-wide text-bc-pastel-red"
 						>
 							See more programmes
 						</p>
 					</div>
-					<div class="bg-bc-wellness-blue px-16 py-10 text-white">
+					<div class="bg-bc-soft-green px-16 py-10 text-white">
 						<h2 class="font-bebas text-[22px] tracking-wide text-white">Our Story</h2>
 
-						<p class="font-m mt-4 text-[19px] font-medium tracking-wide text-white">
+						<p class="font-m mt-4 text-[18px] tracking-wide text-white">
 							At The Birch Collective, we believe in the power of <span
 								class="font-yuji-syuku text-[20px] font-light tracking-tight"
 								>nature, community, and connection</span
@@ -311,9 +306,7 @@
 				<p class="font-ubuntu text-lg tracking-wide">Fresh Air Thursday? I'm in!</p>
 				<p class="font-mono1 text-sm uppercase tracking-wide text-bc-pastel-red">sign up</p>
 			</div>
-			<div
-				class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-pastel-red/50 text-bc-sky-blue/50"
-			></div>
+			<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-soft-green/50"></div>
 
 			<div class="mt-2 flex items-baseline gap-4">
 				<p class="font-ubuntu text-[18px] tracking-wide">
@@ -323,7 +316,7 @@
 
 			<div>
 				<div class="mt-5 flex items-center gap-4">
-					<Checkbox class="border-bc-sky-blue" id="young" />
+					<Checkbox class="border-bc-soft-green" id="young" />
 
 					<Label
 						for="young"
@@ -334,7 +327,7 @@
 				</div>
 
 				<div class="mt-5 flex items-center gap-4">
-					<Checkbox class="border-bc-sky-blue" id="caregiver" />
+					<Checkbox class="border-bc-soft-green" id="caregiver" />
 
 					<Label
 						for="caregiver"
@@ -355,6 +348,50 @@
 					class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-bc-pastel-red"
 					>Submit</Button
 				>
+			</div>
+		</section>
+
+		<section class="mt-24 px-16">
+			<div class="w-full">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="80px"
+					data={image.new_and_pro.drone_trees_and_sitting_circle_very_far}
+					alt=""
+				/>
+			</div>
+
+			<div class="my-4">
+				<p class="font-bebas text-[19px] text-bc-golden-yellow">@thebirchcollectivebristol</p>
+			</div>
+
+			<div class="grid grid-cols-3 gap-8">
+				<div class="aspect-square w-full">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="80px"
+						data={image.new_and_pro.cooking_pot}
+						alt=""
+					/>
+				</div>
+
+				<div class="aspect-square w-full">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="80px"
+						data={image.new_and_pro.fresh_air_thursday_art}
+						alt=""
+					/>
+				</div>
+
+				<div class="aspect-square w-full">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="80px"
+						data={image.new_and_pro.stay_calm_and_listen_to_nature}
+						alt=""
+					/>
+				</div>
 			</div>
 		</section>
 	</div>
