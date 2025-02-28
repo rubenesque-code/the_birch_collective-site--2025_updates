@@ -19,7 +19,7 @@
 
 	// click on sign up -> choose whether to just send interest or properly sign up.
 
-	// link to instagram photos at the bottom
+	// share button?
 </script>
 
 <div class="flex justify-center">
@@ -362,7 +362,7 @@
 			</div>
 
 			<div class="my-4">
-				<p class="font-bebas text-[19px] text-bc-golden-yellow">@thebirchcollectivebristol</p>
+				<p class="font-bebas text-[19px] text-bc-sky-blue">@thebirchcollectivebristol</p>
 			</div>
 
 			<div class="grid grid-cols-3 gap-8">
