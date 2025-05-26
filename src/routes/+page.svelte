@@ -75,11 +75,12 @@
 				<h2 class="font-fjalla text-[29px] leading-none text-bc-black1">What's on</h2>
 
 				<div class="">
-					<p
+					<a
 						class="flex items-center gap-2 font-source text-sm font-bold uppercase leading-none text-bc-black1/70"
+						href="/whats-on"
 					>
 						<span>See all</span>
-					</p>
+					</a>
 				</div>
 			</div>
 
