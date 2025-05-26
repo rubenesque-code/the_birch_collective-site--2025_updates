@@ -14,7 +14,7 @@
 <div class="flex justify-center">
 	<div class="relative w-full">
 		<section class="relative">
-			<div class="absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-ai-muted-forgest-green"></div>
+			<div class="absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-ai-muted-forest-green"></div>
 
 			<div class="relative aspect-[17/9] w-full px-8 pt-[30px]">
 				<div class=" relative h-[800px]">
@@ -27,9 +27,6 @@
 						/>
 					</div>
 				</div>
-				<!-- <div
-					class="absolute bottom-0 left-0 z-10 h-1/2 w-full bg-gradient-to-t from-bc-soft-black to-transparent"
-				></div> -->
 
 				<div class="absolute inset-0 z-20 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
@@ -52,7 +49,7 @@
 							Nature, Community<br />& Connection
 						</h2>
 
-						<div class="mt-8 max-w-[600px] px-8 font-source text-[18px] leading-relaxed text-white">
+						<div class="mt-8 max-w-[600px] px-8 text-[18px] leading-relaxed text-white">
 							<p class="font-medium">Are you 16 — 25 years old and from in or around Bristol?</p>
 							<p class="mt-2">
 								We run nature based courses to help mental health, anxiety, or just to connect to
@@ -63,7 +60,7 @@
 
 						<div class="mt-10 px-8">
 							<Button
-								class="flex items-center gap-[10px] rounded-full bg-bc-ai-muted-forgest-green px-10 py-4 font-sans2 text-white "
+								class="flex items-center gap-[10px] rounded-full bg-bc-ai-muted-forest-green px-10 py-4 text-white "
 								><span class="font-bebas text-[21px] uppercase tracking-widest">Get Connected</span>
 								<span><ArrowRight size="19" /></span>
 							</Button>
@@ -75,11 +72,11 @@
 
 		<section class="mb-32 mt-24 px-16">
 			<div class="relative inline-flex items-baseline gap-8">
-				<h2 class="font-bebas text-[33px] leading-none tracking-wide text-bc-black1">What's on</h2>
+				<h2 class="font-fjalla text-[29px] leading-none text-bc-black1">What's on</h2>
 
 				<div class="">
 					<p
-						class="flex items-center gap-2 font-bebas text-sm font-bold uppercase leading-none text-bc-black1/70"
+						class="flex items-center gap-2 font-source text-sm font-bold uppercase leading-none text-bc-black1/70"
 					>
 						<span>See all</span>
 					</p>
@@ -96,9 +93,11 @@
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-pastel-red p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="bg-bc-ai-warmer-light-red absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
-						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Fresh Air Thursdays</h4>
+						<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">
+							Fresh Air Thursdays
+						</h4>
 
 						<div class="flex items-center gap-4">
 							<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
@@ -106,7 +105,7 @@
 							</p>
 
 							<span
-								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+								class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
 							>
 								<ArrowRight size="19" />
 							</span>
@@ -123,9 +122,9 @@
 					/>
 
 					<div
-						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-sky-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="bg-bc-ai-cooler-light-blue absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
-						<h4 class="font-bebas text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
+						<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
 
 						<div class="flex items-center gap-4">
 							<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
@@ -144,19 +143,21 @@
 		</section>
 
 		<section class="mb-32 mt-[200px] px-16">
-			<div class="flex items-center gap-8">
-				<h2 class="font-display3 text-4xl tracking-wide text-bc-black1">Help out</h2>
+			<div class="flex items-baseline gap-8">
+				<h2 class="font-fjalla text-[29px] leading-none text-bc-black1">Help out</h2>
 
 				<div class="relative">
-					<p class="mt-4 flex items-center gap-2 text-sm font-bold uppercase text-bc-black1/70">
-						<span>View more</span><span> </span>
+					<p
+						class="flex items-center gap-2 font-source text-sm font-bold uppercase leading-none text-bc-black1/70"
+					>
+						<span>view more</span>
 					</p>
 				</div>
 			</div>
 
 			<div class="mt-12 flex items-center gap-12">
 				<div class="relative aspect-square w-[400px]">
-					<div class="polygon3 aspect-square w-full">
+					<div class="aspect-square w-full">
 						<Picture
 							imageClass="w-full h-full object-cover"
 							sizes="800px"
@@ -177,7 +178,7 @@
 				</div>
 
 				<div class="relative aspect-square w-[400px]">
-					<div class="polygon3 aspect-square w-full">
+					<div class="aspect-square w-full">
 						<Picture
 							imageClass="w-full h-full object-cover"
 							sizes="800px"
@@ -199,9 +200,9 @@
 			</div>
 		</section>
 
-		<section class="mb-[240px] mt-[200px]">
-			<div class="relative px-16">
-				<div class="polygon3">
+		<section class="mb-[240px] mt-[300px]">
+			<div class="relative flex items-center px-16">
+				<div class="h-[600px] w-3/5 bg-blue-600">
 					<Picture
 						imageClass="w-full h-full object-cover"
 						sizes="800px"
@@ -210,80 +211,32 @@
 					/>
 				</div>
 
-				<div
-					class="polygon2 absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-soft-green p-12"
-				>
-					<h4 class="font-display3 text-3xl text-bc-black1">
-						Book a block as an educational institution
+				<div class="bg-bc-ai-warmer-light-red z-10 h-[400px] w-2/5 -translate-x-[120px] p-10">
+					<h4 class="font-fjalla text-4xl leading-[1.4]">
+						Book a Block as an Educational Institution
 					</h4>
 
-					<p class="mt-6 text-[17px] text-bc-black1">
+					<p class="mt-12 text-[20px]">
 						If you'd like to book in a group of young people, get in touch!
 					</p>
 
-					<div class="mt-12 flex justify-end">
+					<div class="mt-8">
 						<Button
-							class="flex items-center gap-2 rounded-full bg-transparent px-10 py-4 font-sans2 text-[17px] font-semibold text-bc-soft-black"
+							class="flex items-center gap-2 rounded-full bg-transparent px-0 py-4 text-[17px] font-semibold text-bc-soft-black"
 							><span>Find out more</span>
 							<span><ArrowRight /></span>
 						</Button>
 					</div>
 				</div>
 
-				<div
-					class="polygon3 absolute left-0 top-0 -z-10 aspect-[17/9] w-full translate-y-1/2 opacity-80 grayscale"
-				>
-					<!-- <div class="absolute inset-0 bg-bc-golden-yellow/40"></div> -->
+				<!-- <div class="absolute right-0 h-[500px]">
 					<Picture
 						imageClass="w-full h-full object-cover"
 						sizes="800px"
-						data={image.new_and_pro.drone_trees_and_sitting_circle_very_far}
+						data={image.illustration.birch_trees}
 						alt=""
 					/>
-				</div>
-			</div>
-		</section>
-
-		<section class="mb-[240px] mt-[200px]">
-			<div class="relative px-16">
-				<div class="polygon3">
-					<Picture
-						imageClass="w-full h-full object-cover"
-						sizes="800px"
-						data={image.new_and_pro.group_photo_1}
-						alt=""
-					/>
-				</div>
-
-				<div
-					class="polygon2 absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-coral-pink p-12"
-				>
-					<h4 class="font-display3 text-3xl text-bc-black1">What motivates us</h4>
-
-					<p class="mt-6 text-[17px] text-bc-black1">
-						Read about our ideas and why we think connecting young people to nature is a great idea.
-					</p>
-
-					<div class="mt-12 flex justify-end">
-						<Button
-							class="flex items-center gap-2 rounded-full bg-transparent px-10 py-4 font-sans2 text-[17px] font-semibold text-bc-soft-black"
-							><span>Read more</span>
-							<span><ArrowRight /></span>
-						</Button>
-					</div>
-				</div>
-
-				<div
-					class="polygon3 absolute left-0 top-0 -z-10 aspect-[17/9] w-full translate-y-1/2 opacity-80 grayscale"
-				>
-					<!-- <div class="absolute inset-0 bg-bc-golden-yellow/40"></div> -->
-					<Picture
-						imageClass="w-full h-full object-cover"
-						sizes="800px"
-						data={image.new_and_pro.drone_trees_and_sitting_circle_very_far}
-						alt=""
-					/>
-				</div>
+				</div> -->
 			</div>
 		</section>
 
@@ -299,7 +252,7 @@
 			</div>
 
 			<div class="mt-10 grid grid-cols-2 gap-8">
-				<div class="polygon3 flex flex-col justify-between bg-bc-soft-green">
+				<div class="flex flex-col justify-between bg-bc-soft-green">
 					<div class="relative p-6 text-lg">
 						<div class="relative">
 							<div
@@ -327,7 +280,7 @@
 							</div> -->
 						</div>
 					</div>
-					<div class="polygon3 m-8">
+					<div class="m-8">
 						<Picture
 							imageClass="w-full h-full object-cover"
 							sizes="800px"
@@ -337,7 +290,7 @@
 					</div>
 				</div>
 
-				<div class="polygon3 bg-bc-sky-blue">
+				<div class="bg-bc-sky-blue">
 					<div class="relative p-6 text-lg">
 						<div class="relative">
 							<div
@@ -369,7 +322,7 @@
 						</div>
 					</div>
 
-					<div class="polygon3 m-8">
+					<div class="m-8">
 						<Picture
 							imageClass="w-full h-full object-cover"
 							sizes="800px"
@@ -432,33 +385,3 @@
 		</section>
 	</div>
 </div>
-
-<style>
-	.polygon {
-		clip-path: polygon(0% 0%, 100% 0%, 100% 66.67%, 0% 100%);
-	}
-
-	.polygon2 {
-		clip-path: polygon(0% 4%, 97% 0%, 100% 95%, 2% 100%);
-	}
-
-	.polygon2a {
-		clip-path: polygon(100% 4%, 3% 0%, 0% 95%, 98% 100%);
-	}
-
-	.polygon3 {
-		clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 2% 100%);
-	}
-
-	.polygon4 {
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
-	}
-
-	.polygon5 {
-		clip-path: polygon(5% 0, 100% 0, 100% 90%, 75% 100%, 0 85%);
-	}
-
-	.polygon6 {
-		clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-	}
-</style>

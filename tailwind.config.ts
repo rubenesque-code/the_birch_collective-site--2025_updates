@@ -69,7 +69,9 @@ const config: Config = {
 				'bc-wellness-blue': '#3A7CA5',
 
 				'bc-og-light-green': '#aeca7f',
-				'bc-ai-muted-forgest-green': '#4a7c59',
+				'bc-ai-muted-forest-green': '#4a7c59',
+				'bc-ai-warmer-light-red': '#ff9999',
+				'bc-ai-cooler-light-blue': '#66b3ff',
 
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
