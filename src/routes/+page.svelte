@@ -12,12 +12,12 @@
 </script>
 
 <div class="flex justify-center">
-	<div class="relative w-full max-w-[1050px]">
+	<div class="relative w-full">
 		<section class="relative">
-			<div class="polygon absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-soft-green"></div>
+			<div class="absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-ai-muted-forgest-green"></div>
 
-			<div class="relative aspect-[17/9] w-full px-8 pt-[50px]">
-				<div class="polygon2 relative h-[600px]">
+			<div class="relative aspect-[17/9] w-full px-8 pt-[30px]">
+				<div class=" relative h-[800px]">
 					<div class="absolute inset-0">
 						<Picture
 							imageClass="w-full h-full object-cover"
@@ -26,34 +26,33 @@
 							alt=""
 						/>
 					</div>
-
-					<div
-						class="absolute bottom-0 left-0 z-10 h-1/2 w-full bg-gradient-to-t from-bc-soft-black to-transparent"
-					></div>
 				</div>
+				<!-- <div
+					class="absolute bottom-0 left-0 z-10 h-1/2 w-full bg-gradient-to-t from-bc-soft-black to-transparent"
+				></div> -->
 
-				<div class="absolute inset-0 translate-y-[50px]">
+				<div class="absolute inset-0 z-20 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
 						<div class="flex items-center gap-[9px] px-8">
 							<div class="w-[48px]">
 								<Picture
 									imageClass="w-full h-full object-cover"
 									sizes="80px"
-									data={image.birch.logo_image_white_yellow}
+									data={image.birch.logo_og_colours_img_only_white_trees}
 									alt=""
 								/>
 							</div>
 
-							<h1 class="font-yuji-boku text-[22px] tracking-tight text-white">
+							<h1 class="scale-y-90 font-amatic text-[28px] font-bold tracking-[0.02em] text-white">
 								The Birch Collective
 							</h1>
 						</div>
 
-						<h2 class="mt-20 px-8 font-bebas text-[34px] tracking-wider text-white">
+						<h2 class="mt-20 px-8 font-fjalla text-[40px] tracking-[0.0375em] text-white">
 							Nature, Community<br />& Connection
 						</h2>
 
-						<div class="mt-8 max-w-[600px] px-8 font-ubuntu text-[18px] leading-relaxed text-white">
+						<div class="mt-8 max-w-[600px] px-8 font-source text-[18px] leading-relaxed text-white">
 							<p class="font-medium">Are you 16 — 25 years old and from in or around Bristol?</p>
 							<p class="mt-2">
 								We run nature based courses to help mental health, anxiety, or just to connect to
@@ -64,7 +63,7 @@
 
 						<div class="mt-10 px-8">
 							<Button
-								class="flex items-center gap-[10px] rounded-full bg-bc-soft-green px-10 py-4 font-sans2 text-white "
+								class="flex items-center gap-[10px] rounded-full bg-bc-ai-muted-forgest-green px-10 py-4 font-sans2 text-white "
 								><span class="font-bebas text-[21px] uppercase tracking-widest">Get Connected</span>
 								<span><ArrowRight size="19" /></span>
 							</Button>
@@ -443,7 +442,23 @@
 		clip-path: polygon(0% 4%, 97% 0%, 100% 95%, 2% 100%);
 	}
 
+	.polygon2a {
+		clip-path: polygon(100% 4%, 3% 0%, 0% 95%, 98% 100%);
+	}
+
 	.polygon3 {
 		clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 2% 100%);
+	}
+
+	.polygon4 {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+	}
+
+	.polygon5 {
+		clip-path: polygon(5% 0, 100% 0, 100% 90%, 75% 100%, 0 85%);
+	}
+
+	.polygon6 {
+		clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
 	}
 </style>

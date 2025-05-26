@@ -14,14 +14,19 @@ const config: Config = {
 		},
 		extend: {
 			fontFamily: {
+				amatic: ['Amatic SC', 'sans-serif'],
 				karla: ['Karla', 'sans-serif'],
 				ubuntu: ['Ubuntu', 'sans-serif'],
+				inter: ['Inter', 'sans-serif'],
+				source: ['Source Sans 3', 'sans-serif'],
 				sans2: ['Poppins', 'sans-serif'],
 				sans3: ['FunnelSans', 'sans-serif'],
 				sans4: ['Quicksand', 'sans-serif'],
 				display1: ['GloriaHallelujah', 'serif'],
 				display2: ['LondrinaOutline', 'sans-serif'],
 				display3: ['LondrinaSolid', 'sans-serif'],
+				oswald: ['Oswald', 'sans-serif'],
+				fjalla: ['Fjalla One', 'sans-serif'],
 
 				mono1: ['Inconsolata', 'mono'],
 				'input-serif': ['InputSerif', 'mono'],
@@ -62,6 +67,9 @@ const config: Config = {
 				'bc-soft-yellow': '#FFF3B0',
 				'bc-soft-black': '#2C2C2C',
 				'bc-wellness-blue': '#3A7CA5',
+
+				'bc-og-light-green': '#aeca7f',
+				'bc-ai-muted-forgest-green': '#4a7c59',
 
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
