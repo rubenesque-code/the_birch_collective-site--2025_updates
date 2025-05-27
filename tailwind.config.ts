@@ -73,6 +73,8 @@ const config: Config = {
 				'bc-ai-warmer-light-red': '#ff9999',
 				'bc-ai-cooler-light-blue': '#66b3ff',
 
+				'my-light-blue': 'rgb(11, 154, 236)',
+
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",

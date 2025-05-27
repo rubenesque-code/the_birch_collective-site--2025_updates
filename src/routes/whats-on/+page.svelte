@@ -1,78 +1,146 @@
 <script lang="ts" context="module">
-	import { Cactus, CookingPot, Footprints } from 'phosphor-svelte';
+	import { ArrowRight, Cactus, CookingPot, Footprints } from 'phosphor-svelte';
 
 	import { image } from '^assets/images';
 	import { Picture } from '^components';
 </script>
 
-<div class="">
-	<!-- <div class="absolute top-0 -z-10 h-[190px] w-full bg-bc-brown1"></div> -->
-	<div class="mt-12 flex items-center gap-[9px] px-12">
-		<div class="w-[48px]">
-			<Picture
-				imageClass="w-full h-full object-cover"
-				sizes="80px"
-				data={image.birch.logo_og_colours_img_only}
-				alt=""
-			/>
+<main class="min-h-screen px-20 pb-[200px] pt-6">
+	<header class="flex items-center justify-between p-2">
+		<div class="flex items-center gap-2">
+			<div class="w-[40px]">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="80px"
+					data={image.birch.logo_og_colours_img_only}
+					alt=""
+				/>
+			</div>
+
+			<h1
+				class="154, 236)] scale-y-90 font-amatic text-[28px] font-bold tracking-[0.02em] text-my-light-blue"
+			>
+				The Birch Collective
+			</h1>
 		</div>
 
-		<h1 class="scale-y-90 font-amatic text-[28px] font-bold tracking-[0.02em]">
-			The Birch Collective
-		</h1>
-	</div>
-
-	<section class="mt-20 flex gap-20 px-24">
 		<div>
-			<h1 class="font-bebas text-5xl">What's On</h1>
-
-			<p class="mt-10 max-w-[550px] text-lg leading-relaxed">
-				Looking for something different? We’ve got a range of programs designed to fit whatever vibe
-				you're after. Whether you’re up for hands-on projects, chilling in nature, or looking to
-				make a real impact, we’ve got you covered.
-			</p>
-
-			<div class="mt-8 flex flex-col gap-5">
-				<div class="flex items-center gap-4">
-					<div class="leading-none text-bc-og-light-green">
-						<CookingPot weight="fill" />
-					</div>
-					<div>
-						<p class="font-medium leading-none text-[#bb742a]">
-							Weekly hangouts involving crafting, planting, cooking and more.
-						</p>
-					</div>
-				</div>
-
-				<div class="flex items-center gap-4">
-					<div class="leading-none text-bc-og-light-green">
-						<Footprints weight="fill" />
-					</div>
-					<div>
-						<p class="font-medium leading-none text-[#bb742a]">5-day woodland adventures.</p>
-					</div>
-				</div>
-
-				<div class="flex items-center gap-4">
-					<div class="leading-none text-bc-og-light-green">
-						<Cactus weight="fill" />
-					</div>
-					<div>
-						<p class="font-medium leading-none text-[#bb742a]">
-							Leadership programmes if you're 26+.
-						</p>
-					</div>
+			<div>
+				<p class="font-amatic text-2xl font-bold text-my-light-blue">menu</p>
+				<div class="w-[40px]">
+					<Picture
+						imageClass="w-full h-full object-cover"
+						sizes="80px"
+						data={image.illustration.blue_line}
+						alt=""
+					/>
 				</div>
 			</div>
 		</div>
+	</header>
 
-		<div class="h-[400px] flex-grow rounded-lg border-[24px] border-bc-og-light-green/80">
-			<Picture
-				imageClass="w-full h-full object-cover rounded-lg"
-				sizes="800px"
-				data={image.new_and_pro.stay_calm_and_listen_to_nature}
-				alt=""
-			/>
+	<section class="mt-20 px-20">
+		<div class="flex items-end justify-between">
+			<div class="mt-10">
+				<h1 class="font-fjalla text-6xl text-[#071633]">What's on</h1>
+
+				<p class="mt-10 max-w-[550px] text-[17px] leading-relaxed">
+					Looking for something different? We’ve got a range of programs designed to fit whatever
+					vibe you're after. Whether you’re up for hands-on projects, chilling in nature, or looking
+					to make a real impact, we’ve got you covered.
+				</p>
+			</div>
+
+			<div>
+				<div class="w-[100px] rounded-lg">
+					<Picture imageClass="w-full" sizes="800px" data={image.illustration.trees} alt="" />
+				</div>
+			</div>
 		</div>
 	</section>
-</div>
+
+	<section class="px-20">
+		<div class="mt-16 flex items-center gap-12">
+			<a class="group/card relative aspect-square w-[400px]" href="/fresh-air-thursday">
+				<Picture
+					imageClass="w-full h-full object-cover object-left"
+					sizes="800px"
+					data={image.new_and_pro.james_and_helper_talking_to_participant}
+					alt=""
+				/>
+
+				<div
+					class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-ai-warmer-light-red p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+				>
+					<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">Fresh Air Thursdays</h4>
+
+					<div class="flex items-center gap-4">
+						<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
+							Get stuck in at our weekly meet-up.
+						</p>
+
+						<span
+							class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+						>
+							<ArrowRight />
+						</span>
+					</div>
+				</div>
+			</a>
+
+			<div class="relative aspect-square w-[400px]">
+				<Picture
+					imageClass="w-full h-full object-cover"
+					sizes="800px"
+					data={image.programme.camp_birch.lying_in_grass}
+					alt=""
+				/>
+
+				<div
+					class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-ai-cooler-light-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+				>
+					<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
+
+					<div class="flex items-center gap-4">
+						<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
+							A free 5 day residential in the Dartmoor wilderness!
+						</p>
+
+						<span
+							class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-colors duration-300 ease-in-out group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+						>
+							<ArrowRight size="17" />
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<a class="group/card relative aspect-square w-[400px]" href="/fresh-air-thursday">
+				<Picture
+					imageClass="w-full h-full object-cover object-left"
+					sizes="800px"
+					data={image.new_and_pro.picking_leaves}
+					alt=""
+				/>
+
+				<div
+					class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-yellow1 p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+				>
+					<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">Cooking Class</h4>
+
+					<div class="flex items-center gap-4">
+						<p class="mt-2 font-montserrat text-[15px] font-medium text-bc-black1">
+							Get stuck in at our weekly meet-up.
+						</p>
+
+						<span
+							class="rounded-full border border-bc-soft-black p-1 text-bc-soft-black transition-transform duration-300 ease-in-out group-hover/card:translate-x-[6px] group-hover/card:bg-bc-soft-black group-hover/card:text-white"
+						>
+							<ArrowRight />
+						</span>
+					</div>
+				</div>
+			</a>
+		</div>
+	</section>
+</main>

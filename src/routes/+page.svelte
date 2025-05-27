@@ -35,7 +35,7 @@
 								<Picture
 									imageClass="w-full h-full object-cover"
 									sizes="80px"
-									data={image.birch.logo_og_colours_img_only_white_trees}
+									data={image.birch.logo_image_white_yellow}
 									alt=""
 								/>
 							</div>
@@ -94,7 +94,7 @@
 					/>
 
 					<div
-						class="bg-bc-ai-warmer-light-red absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-ai-warmer-light-red p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
 						<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">
 							Fresh Air Thursdays
@@ -123,7 +123,7 @@
 					/>
 
 					<div
-						class="bg-bc-ai-cooler-light-blue absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
+						class="absolute bottom-0 left-1/2 w-3/4 -translate-x-1/2 translate-y-1/2 bg-bc-ai-cooler-light-blue p-6 transition-all duration-300 ease-in-out group-hover/card:translate-y-1/3"
 					>
 						<h4 class="font-fjalla text-[22px] tracking-wide text-bc-black1">Camp Birch</h4>
 
@@ -212,7 +212,7 @@
 					/>
 				</div>
 
-				<div class="bg-bc-ai-warmer-light-red z-10 h-[400px] w-2/5 -translate-x-[120px] p-10">
+				<div class="z-10 h-[400px] w-2/5 -translate-x-[120px] bg-bc-ai-warmer-light-red p-10">
 					<h4 class="font-fjalla text-4xl leading-[1.4]">
 						Book a Block as an Educational Institution
 					</h4>
