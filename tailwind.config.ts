@@ -15,6 +15,9 @@ const config: Config = {
 		extend: {
 			fontFamily: {
 				amatic: ['Amatic SC', 'sans-serif'],
+				georgia: ['Georgia', 'serif'],
+				maven: ['Maven', 'sans-serif'],
+
 				karla: ['Karla', 'sans-serif'],
 				ubuntu: ['Ubuntu', 'sans-serif'],
 				inter: ['Inter', 'sans-serif'],

@@ -12,4 +12,12 @@ const camp_birch = {
   lying_in_grass
 }
 
-export const programme = { fresh_air_thursdays, camp_birch }
+import four_people_around_campfire from "../_files/programmes/recoupe/4-people-around-campfire.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
+import entwined_branches from "../_files/programmes/recoupe/entwined-branches.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
+
+const recoupe = {
+  four_people_around_campfire,
+  entwined_branches
+}
+
+export const programme = { fresh_air_thursdays, camp_birch, four_people_around_campfire, entwined_branches, recoupe }

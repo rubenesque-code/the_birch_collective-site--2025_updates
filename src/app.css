@@ -70,7 +70,7 @@
 		@apply border-border;
 	}
 	body {
-		@apply font-source bg-background text-foreground;
+		@apply bg-background font-source text-foreground;
 	}
 }
 
@@ -381,6 +381,22 @@
 @font-face {
 	font-family: 'Source Sans 3';
 	src: url('/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf') format('truetype-variations');
+	font-optical-sizing: auto;
+	font-weight: 300 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/georgia-2/georgia.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maven';
+	src: url('/static/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype-variations');
 	font-optical-sizing: auto;
 	font-weight: 300 800;
 	font-style: normal;
