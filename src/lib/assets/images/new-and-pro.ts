@@ -15,6 +15,8 @@ import james_and_helper_talking_to_participant from "../_files/new-and-professio
 import two_participants_and_caregiver_sitting from "../_files/new-and-professional/two_participants_and_caregiver_sitting.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
 import james_and_participant from "../_files/new-and-professional/james_and_participant.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
 
+import sitting_in_circle from "../_files/new-and-professional/even-newer/250403_Garden_0018.jpg?w=800&format=avif;webp;png&as=picture&imagetools";
+
 export const new_and_pro = {
   stay_calm_and_listen_to_nature,
   sitting_in_foreground_hugging_in_background,
@@ -31,6 +33,7 @@ export const new_and_pro = {
   picking_leaves,
   james_and_helper_talking_to_participant,
   two_participants_and_caregiver_sitting,
-  james_and_participant
+  james_and_participant,
+  sitting_in_circle
 }
 

@@ -9,14 +9,31 @@
 	// SECTIONS
 	// - sign up to newslettr
 	// - latest news
+
+	// - isuzu: general service. filters and oil. alternator belts. saturday eve or sunday morning. $250 offer.
 </script>
+
+<!-- <section class="mb-32 mt-10">
+	<div class="relative h-[700px]">
+		<Picture
+			imageClass="w-full object-top h-full object-cover"
+			sizes="800px"
+			data={image.new_and_pro.sitting_in_circle}
+			alt=""
+		/>
+
+		<div class="absolute left-1/2 top-[20px] -translate-x-1/2">
+			<h2 class="text-center font-amatic text-[95px] font-bold tracking-[0.0375em] text-white">
+				The Birch Collective
+			</h2>
+		</div>
+	</div>
+</section> -->
 
 <div class="flex justify-center">
 	<div class="relative w-full">
 		<section class="relative">
-			<div class="absolute left-0 top-0 -z-10 h-[300px] w-full bg-bc-ai-muted-forest-green"></div>
-
-			<div class="relative aspect-[17/9] w-full px-8 pt-[30px]">
+			<div class="relative aspect-[17/9] w-full pt-[30px]">
 				<div class=" relative h-[800px]">
 					<div class="absolute inset-0">
 						<Picture
@@ -30,38 +47,24 @@
 
 				<div class="absolute inset-0 z-20 translate-y-[50px]">
 					<div class="mt-[50px] px-12">
-						<div class="flex items-center gap-[9px] px-8">
-							<div class="w-[48px]">
-								<Picture
-									imageClass="w-full h-full object-cover"
-									sizes="80px"
-									data={image.birch.logo_image_white_yellow}
-									alt=""
-								/>
-							</div>
-
-							<h1 class="scale-y-90 font-amatic text-[28px] font-bold tracking-[0.02em] text-white">
-								The Birch Collective
-							</h1>
-						</div>
-
 						<h2 class="mt-20 px-8 font-fjalla text-[40px] tracking-[0.0375em] text-white">
 							Nature, Community<br />& Connection
 						</h2>
 
-						<div class="mt-8 max-w-[600px] px-8 text-[18px] leading-relaxed text-white">
+						<div class="mt-12 max-w-[600px] px-8 text-[18px] leading-[1.7] text-white">
 							<p class="font-medium">Are you 16 — 25 years old and from in or around Bristol?</p>
 							<p class="mt-2">
 								We run nature based courses to help mental health, anxiety, or just to connect to
 								nature!
 							</p>
-							<p class="mt-2 underline underline-offset-4">Get involved this week!</p>
+							<p class="mt-4 underline underline-offset-4">Get involved this week!</p>
 						</div>
 
-						<div class="mt-10 px-8">
+						<div class="mt-12 px-8">
 							<Button
-								class="flex items-center gap-[10px] rounded-full bg-bc-ai-muted-forest-green px-10 py-4 text-white "
-								><span class="font-bebas text-[21px] uppercase tracking-widest">Get Connected</span>
+								class="flex items-center gap-[10px] rounded-full bg-bc-yellow1 px-10 py-4 text-[#071633]"
+							>
+								<span class="font-bebas text-[21px] uppercase tracking-widest">Get Connected</span>
 								<span><ArrowRight size="19" /></span>
 							</Button>
 						</div>
