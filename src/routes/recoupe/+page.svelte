@@ -1,21 +1,11 @@
 <script lang="ts" context="module">
 	import { image } from '^assets/images';
 	import { Picture } from '^components';
+
+	// when; where; who for/can i come?; how much
 </script>
 
 <section class="relative mt-8 h-[400px]">
-	<!-- <div class="flex">
-		{#each Array(5) as item}
-			<div class="">
-				<Picture
-					imageClass="w-[300px] h-[50px] object-cover"
-					sizes="800px"
-					data={image.illustration.birch_trees}
-					alt=""
-				/>
-			</div>
-		{/each}
-	</div> -->
 	<div class="mt-[40px] h-[30px] bg-[#e9eb98]"></div>
 
 	<h1
@@ -41,8 +31,10 @@
 			</p>
 		</div>
 	</div>
+</section>
 
-	<div class="mt-12 grid grid-cols-3 gap-x-6 pl-52">
+<section class="mt-12">
+	<div class="grid grid-cols-3 gap-x-6 pl-52">
 		<Picture
 			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
 			sizes="800px"
@@ -64,29 +56,124 @@
 			alt=""
 		/>
 	</div>
+</section>
 
-	<!-- <div class="flex justify-center">
-		<p class="mt-10 max-w-[600px] leading-[2]">
-			<span
-				class="float-left mb-2 block h-[50px] w-[30px] font-amatic text-6xl font-bold text-bc-coral-pink"
-				>R</span
-			>
-			<span class="font-maven">
-				ecoupe is a regenerative ecological project breathing new life into Troopers Hill Woods. Our
-				focus is to work sensitively with the land to create a thriving and diverse working
-				woodland.
-			</span>
-		</p>
-	</div> -->
+<section class="mt-16">
+	<div class="flex justify-center">
+		<div class="grid w-full grid-cols-4 justify-between gap-y-8 pl-20">
+			<div class="flex justify-start">
+				<div class="relative flex flex-col items-center rounded-lg p-6">
+					<div class="">
+						<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">When</h3>
+					</div>
 
-	<!-- <div class="absolute left-0 top-0 w-[300px]">
-		<Picture
-			imageClass="w-full"
-			sizes="800px"
-			data={image.illustration.recoupe_poster_main_illustration}
-			alt=""
-		/>
-	</div> -->
+					<p class="mt-3">Every Tuesday 1pm - 5pm</p>
+
+					<div class="absolute left-1/2 top-[3px] w-[100px] -translate-x-1/2 scale-y-75">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+
+					<div class="absolute bottom-[1px] left-1/2 w-[200px] -translate-x-1/2 scale-y-[0.35]">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-start">
+				<div class="relative flex flex-col items-center rounded-lg p-6">
+					<div class="">
+						<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">Where</h3>
+					</div>
+
+					<p class="mt-3">Every Tuesday 1pm - 5pm</p>
+
+					<div class="absolute left-1/2 top-[3px] w-[100px] -translate-x-1/2 scale-y-75">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+
+					<div class="absolute bottom-[1px] left-1/2 w-[200px] -translate-x-1/2 scale-y-[0.35]">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-start">
+				<div class="relative flex flex-col items-center rounded-lg p-6">
+					<div class="">
+						<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">How Much</h3>
+					</div>
+
+					<p class="mt-3">Every Tuesday 1pm - 5pm</p>
+
+					<div class="absolute left-1/2 top-[3px] w-[100px] -translate-x-1/2 scale-y-75">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+
+					<div class="absolute bottom-[1px] left-1/2 w-[200px] -translate-x-1/2 scale-y-[0.35]">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-start">
+				<div class="relative flex flex-col items-center rounded-lg p-6">
+					<div class="">
+						<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">Who For</h3>
+					</div>
+
+					<p class="mt-3">Every Tuesday 1pm - 5pm</p>
+
+					<div class="absolute left-1/2 top-[3px] w-[100px] -translate-x-1/2 scale-y-75">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+
+					<div class="absolute bottom-[1px] left-1/2 w-[200px] -translate-x-1/2 scale-y-[0.35]">
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>

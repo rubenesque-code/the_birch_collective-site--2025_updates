@@ -78,6 +78,10 @@ const config: Config = {
 
 				'my-light-blue': 'rgb(11, 154, 236)',
 
+				'recoupe-green': '#627d48',
+				'recoupe-light-yellow': '#e9eb98',
+				'recoupe-brown': '#655210',
+
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",
