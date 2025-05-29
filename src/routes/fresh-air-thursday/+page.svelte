@@ -53,23 +53,11 @@
 				Fresh Air<br />
 				<span class="font-lora text-[42px] tracking-wide text-white">Thursday</span>
 			</h1>
-			<!-- <h1 class="absolute left-[100px] top-[400px] font-lora text-[50px] tracking-wide text-white">
-				Thursday
-			</h1> -->
 
 			<p class="absolute left-[270px] top-[390px] text-center font-lora text-[18px] text-white">
 				Join us! We're a 5 minutes walk from St George's Park
 			</p>
 		</section>
-
-		<!-- <section class="mt-16 px-8">
-			<div class="px-8">
-				<p class="max-w-[400px] font-montserrat text-lg leading-relaxed">
-					Come along to make new friends, take part in fun and relaxing nature based activities or
-					just to chill out in our outdoor garden.
-				</p>
-			</div>
-		</section> -->
 
 		<section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
 			<div class="grid grid-cols-2">
@@ -90,10 +78,6 @@
 
 					<div class="mt-6 flex flex-grow flex-col items-start justify-between">
 						<Button class="bg-bc-pastel-red font-lora text-[18px] tracking-wide">Sign Up</Button>
-
-						<!-- <p class="mt-[14px] font-lora text-xs text-bc-soft-black/50">
-							Click <span class="underline underline-offset-2">here</span> for email updates
-						</p> -->
 					</div>
 				</div>
 
@@ -109,20 +93,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- <section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
-			<h2 class="font-bebas text-[22px] tracking-wide">About Fresh Air Thursday</h2>
-
-			<p class="mt-4 max-w-[600px] font-ubuntu text-[17px]">
-				Fresh, is our weekly group for 16-25 year olds. We offer a range of activities designed at a
-				pace to make learning accessible and to draw out your creativity.
-			</p>
-
-			<p class="mt-4 max-w-[600px] font-ubuntu text-[16px]">
-				There is no fixed time limit to attendance, attend all year round, once a month or just one
-				off, totally up to you.
-			</p>
-		</section> -->
 
 		<section class="relative mt-24 px-16 font-ubuntu text-bc-soft-black">
 			<h2 class="font-bebas text-[22px] tracking-wide">Activities</h2>

@@ -1,15 +1,20 @@
 <script lang="ts" context="module">
+	import { SmilePlus, Sprout } from 'lucide-svelte';
+	import { ArrowLeft, ArrowRight, CookingPot, Scissors } from 'phosphor-svelte';
+	import { Button } from '~ui';
+
 	import { image } from '^assets/images';
+
 	import { Picture } from '^components';
 
-	// when; where; who for/can i come?; how much
+	// supported/funded by section? -as on the posters
 </script>
 
 <section class="relative mt-8 h-[400px]">
 	<div class="mt-[40px] h-[30px] bg-[#e9eb98]"></div>
 
 	<h1
-		class="pt-16 text-center font-bebas text-[100px] font-bold leading-none tracking-wide text-border"
+		class="text-border-2 pt-16 text-center font-bebas text-[100px] font-bold leading-none tracking-wide text-recoupe-green"
 	>
 		Recoupe
 	</h1>
@@ -176,9 +181,12 @@
 	</div>
 </section>
 
+<!-- <div class="mt-24 flex justify-end">
+	<div class="h-[15px] w-[800px] bg-recoupe-light-yellow/50"></div>
+</div> -->
+
 <style>
-	.text-border {
-		color: #627d48;
+	.text-border-2 {
 		text-shadow:
 			-2px -2px 0 #e9eb98,
 			2px -2px 0 #e9eb98,
