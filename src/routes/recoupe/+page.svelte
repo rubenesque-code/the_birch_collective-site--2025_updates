@@ -1,6 +1,15 @@
 <script lang="ts" context="module">
 	import { SmilePlus, Sprout } from 'lucide-svelte';
-	import { ArrowLeft, ArrowRight, CookingPot, Scissors } from 'phosphor-svelte';
+	import {
+		ArrowLeft,
+		ArrowRight,
+		Axe,
+		CookingPot,
+		Hammer,
+		PersonSimpleHike,
+		Scissors,
+		Tree
+	} from 'phosphor-svelte';
 	import { Button } from '~ui';
 
 	import { image } from '^assets/images';
@@ -210,6 +219,111 @@
 		<span class="two-tone-text">take part in regenerative</span>
 		<span class="text-[#e6b777]">woodland activities </span>
 	</h2>
+
+	<div class="mt-20 px-24">
+		<div class="grid grid-cols-2 justify-between gap-x-16 gap-y-16">
+			<div class="flex justify-start">
+				<div class="relative w-max">
+					<Picture
+						imageClass="w-[500px]"
+						sizes="500px"
+						data={image.illustration.hand_drawn_rectangle}
+						alt=""
+					/>
+
+					<div
+						class="absolute left-1/2 top-1/2 flex h-[90%] w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col place-items-center items-center justify-center gap-y-4 overflow-y-auto overflow-x-hidden"
+					>
+						<div
+							class="rounded-full bg-recoupe-light-yellow/50 p-[10px] text-3xl text-recoupe-brown"
+						>
+							<Axe weight="duotone" />
+						</div>
+						<p class="">
+							Traditional Seasonal Woodland Management: Learn coppicing, charcoal burning, and hedge
+							laying to help restore the woodland and encourage biodiversity.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-end">
+				<div class="relative w-max">
+					<Picture
+						imageClass="w-[500px]"
+						sizes="500px"
+						data={image.illustration.hand_drawn_rectangle}
+						alt=""
+					/>
+
+					<div
+						class="absolute left-1/2 top-1/2 flex h-[90%] w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col place-items-center items-center justify-center gap-y-4 overflow-y-auto overflow-x-hidden"
+					>
+						<div
+							class="rounded-full bg-recoupe-light-yellow/50 p-[10px] text-3xl text-recoupe-brown"
+						>
+							<Tree weight="duotone" />
+						</div>
+						<p class="">
+							Wildlife Habitat Creation and Tree Planting: Identify and map wildlife species,
+							learning how to create habitats for birds, bats, and insects.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-start">
+				<div class="relative w-max">
+					<Picture
+						imageClass="w-[500px]"
+						sizes="500px"
+						data={image.illustration.hand_drawn_rectangle}
+						alt=""
+					/>
+
+					<div
+						class="absolute left-1/2 top-1/2 flex h-[90%] w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col place-items-center items-center justify-center gap-y-4 overflow-y-auto overflow-x-hidden"
+					>
+						<div
+							class="rounded-full bg-recoupe-light-yellow/50 p-[10px] text-3xl text-recoupe-brown"
+						>
+							<PersonSimpleHike weight="duotone" />
+						</div>
+						<p class="">
+							Nature Connection and Seasonal Awareness: Take time to observe and reflect, building a
+							deeper connection to the land and its stories.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex justify-end">
+				<div class="relative w-max">
+					<Picture
+						imageClass="w-[500px]"
+						sizes="500px"
+						data={image.illustration.hand_drawn_rectangle}
+						alt=""
+					/>
+
+					<div
+						class="absolute left-1/2 top-1/2 flex h-[90%] w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col place-items-center items-center justify-center gap-y-4 overflow-y-auto overflow-x-hidden"
+					>
+						<div
+							class="rounded-full bg-recoupe-light-yellow/50 p-[10px] text-3xl text-recoupe-brown"
+						>
+							<Hammer weight="duotone" />
+						</div>
+
+						<p class="">
+							Practical Conservation Skills: Repair and maintain paths to improve access for
+							visitors and protect the woodland.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>
