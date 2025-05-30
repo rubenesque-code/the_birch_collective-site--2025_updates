@@ -1,22 +1,15 @@
 <script lang="ts" context="module">
-	import { SmilePlus, Sprout } from 'lucide-svelte';
-	import {
-		ArrowLeft,
-		ArrowRight,
-		Axe,
-		CookingPot,
-		Hammer,
-		PersonSimpleHike,
-		Scissors,
-		Tree
-	} from 'phosphor-svelte';
-	import { Button } from '~ui';
+	import { ArrowLeft, Axe, Hammer, PersonSimpleHike, Tree } from 'phosphor-svelte';
 
 	import { image } from '^assets/images';
 
 	import { Picture } from '^components';
 
 	// supported/funded by section? -as on the posters
+	// main text under title is better with browser default?
+	// circular images next to main title with hand-drawn circles?
+	// large center image with hand drawn left/right arrows for image swiper
+	// granulated effect on image?
 </script>
 
 <div class="mt-[40px] h-[30px] bg-[#e9eb98]"></div>
@@ -54,7 +47,7 @@
 	<div class="mt-12 flex justify-center">
 		<div class="w-[600px]">
 			<span class="float-left mb-2 mr-4 font-amatic text-6xl font-bold text-bc-soft-black">R</span
-			><span>
+			><span class="">
 				ecoupe is a regenerative ecological project breathing new life into Troopers Hill Woods. Our
 				focus is to work sensitively with the land to create a thriving and diverse working
 				woodland. Recoupe is a regenerative ecological project breathing new life into Troopers Hill
@@ -288,24 +281,96 @@
 	</div>
 </section>
 
-<!-- <section class="mt-12">
-	<div class="grid grid-cols-3 gap-x-6 pl-52">
+<section class="mt-24 px-24">
+	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
+		more about the programme
+	</h2>
+
+	<div class="mt-8 flex justify-center">
+		<p class="max-w-[700px] font-maven">
+			We will mainly use hand tools and apply traditional woodland management techniques such as
+			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
+			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
+		</p>
+	</div>
+
+	<div class="mt-10 flex justify-center">
+		<div class="flex w-[1200px] items-center gap-4">
+			<div class="grid w-[70px] scale-x-[-1] place-items-center rounded-lg p-3">
+				<Picture
+					imageClass="opacity-80"
+					sizes="80px"
+					data={image.illustration.right_arrow_light_orange}
+					alt=""
+				/>
+			</div>
+			<div class="flex-grow">
+				<div class="rounded-md border-[3px] border-[#e6b777]/50">
+					<Picture
+						imageClass="w-full p-2 opacity-70 rounded-md aspect-video object-cover"
+						sizes="800px"
+						data={image.programme.recoupe.four_people_around_campfire}
+						alt=""
+					/>
+				</div>
+				<p
+					class="text-right font-amatic text-[19px] font-bold tracking-[0.017em] text-recoupe-green"
+				>
+					images from recoupe
+				</p>
+			</div>
+			<div class="w-[50px]">
+				<Picture
+					imageClass=""
+					sizes="80px"
+					data={image.illustration.right_arrow_light_orange}
+					alt=""
+				/>
+			</div>
+		</div>
+	</div>
+
+	<div class="mt-8 flex justify-center">
+		<p class="max-w-[700px] font-maven">
+			the tree are utilised. By planting a broad range of trees and creating diverse habitats to
+			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
+			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
+			plants to thrive and care for the health of trees and wildlife already present.
+		</p>
+	</div>
+</section>
+
+<!-- <section class="mt-32">
+	<div class="flex justify-center">
+		<div class="w-[800px]">
+			<Picture
+				imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+				sizes="800px"
+				data={image.new_and_pro.fresh_air_thursday_art}
+				alt=""
+			/>
+		</div>
+	</div>
+</section> -->
+
+<!-- <section class="mt-24">
+	<div class="grid grid-cols-3 gap-x-3 px-24">
 		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
 			sizes="800px"
 			data={image.illustration.recoupe_poster_main_illustration}
 			alt=""
 		/>
 
 		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
 			sizes="800px"
 			data={image.new_and_pro.fresh_air_thursday_art}
 			alt=""
 		/>
 
 		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
 			sizes="800px"
 			data={image.new_and_pro.cooking_pot}
 			alt=""

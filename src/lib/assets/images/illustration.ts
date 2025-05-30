@@ -8,6 +8,8 @@ import recoupe_poster_main_illustration_rectangle from '../_files/illustrations/
 import recoupe_poster_trees_texture_snippet from '../_files/illustrations/recoupe-poster-trees-texture-snippet.png?w=80&format=avif;webp;png&as=picture&imagetools'
 import recoupe_poster_cloud from '../_files/illustrations/recoupe-poster-cloud.png?w=80&format=avif;webp;png&as=picture&imagetools'
 import hand_drawn_rectangle from '../_files/illustrations/hand-drawn-square-outline.png?w=520&format=avif;webp;png&as=picture&imagetools'
+import right_arrow from '../_files/illustrations/right-arrow.png?w=520&format=avif;webp;png&as=picture&imagetools'
+import right_arrow_light_orange from '../_files/illustrations/right-arrow-light-orange.png?w=520&format=avif;webp;png&as=picture&imagetools'
 
 export const illustration = {
   birch_trees,
@@ -19,5 +21,7 @@ export const illustration = {
   recoupe_poster_trees_texture_snippet,
   recoupe_poster_cloud,
   hand_drawn_rectangle,
-  trees
+  trees,
+  right_arrow,
+  right_arrow_light_orange
 }
