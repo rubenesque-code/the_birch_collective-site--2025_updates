@@ -78,6 +78,7 @@ const config: Config = {
 				'bc-ai-cooler-light-blue': '#66b3ff',
 
 				'my-light-blue': 'rgb(11, 154, 236)',
+				'my-dark-blue': '#164962',
 
 				'recoupe-green': '#627d48',
 				'recoupe-light-yellow': '#e9eb98',
