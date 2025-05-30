@@ -396,8 +396,16 @@
 
 @font-face {
 	font-family: 'Maven';
-	src: url('/static/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype-variations');
+	src: url('/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype-variations');
 	font-optical-sizing: auto;
 	font-weight: 300 800;
 	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cherry Bomb';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf');
+	font-display: swap;
 }

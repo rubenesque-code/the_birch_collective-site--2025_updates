@@ -14,13 +14,13 @@
 	<div class="mt-[40px] h-[30px] bg-[#e9eb98]"></div>
 
 	<h1
-		class="text-border-2 pt-16 text-center font-bebas text-[100px] font-bold leading-none tracking-wide text-recoupe-green"
+		class="text-border-2 scale-x-110 pt-16 text-center font-amatic text-[110px] font-bold leading-none tracking-wide text-recoupe-green"
 	>
 		Recoupe
 	</h1>
 
 	<div class="mt-10 flex justify-center">
-		<div class="grid max-w-[1100px] grid-cols-2 gap-x-10">
+		<div class="grid max-w-[1100px] grid-cols-2 gap-x-10 font-maven">
 			<p>
 				Recoupe is a regenerative ecological project breathing new life into Troopers Hill Woods.
 				Our focus is to work sensitively with the land to create a thriving and diverse working
@@ -63,7 +63,7 @@
 	</div>
 </section>
 
-<section class="mt-16">
+<section class="mt-16 font-maven">
 	<div class="flex justify-center">
 		<div class="grid w-full grid-cols-4 justify-between gap-y-8 pl-20">
 			<div class="flex justify-start">
@@ -181,9 +181,36 @@
 	</div>
 </section>
 
-<!-- <div class="mt-24 flex justify-end">
-	<div class="h-[15px] w-[800px] bg-recoupe-light-yellow/50"></div>
-</div> -->
+<section class="relative">
+	<div class="absolute -top-[40px] right-[100px]">
+		<div class="w-[100px]">
+			<Picture
+				imageClass="w-full h-full opacity-40 object-cover"
+				sizes="80px"
+				data={image.illustration.recoupe_poster_cloud}
+				alt=""
+			/>
+		</div>
+	</div>
+
+	<div class="absolute -top-[60px] right-[300px]">
+		<div class="w-[100px]">
+			<Picture
+				imageClass="w-full h-full opacity-40 object-cover"
+				sizes="80px"
+				data={image.illustration.recoupe_poster_cloud}
+				alt=""
+			/>
+		</div>
+	</div>
+
+	<h2
+		class="mt-32 flex flex-col items-center text-center font-amatic text-[100px] font-bold leading-[1.3] text-recoupe-light-yellow"
+	>
+		<span class="two-tone-text">take part in regenerative</span>
+		<span class="text-[#e6b777]">woodland activities </span>
+	</h2>
+</section>
 
 <style>
 	.text-border-2 {
@@ -193,5 +220,13 @@
 			-2px 2px 0 #e9eb98,
 			2px 2px 0 #e9eb98;
 		-webkit-text-stroke: 2px #e9eb98;
+	}
+	.two-tone-text {
+		background: linear-gradient(to bottom, #e18a2f 50%, #e6b777 50%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		/* For Firefox */
+		background-clip: text;
+		color: transparent;
 	}
 </style>

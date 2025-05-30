@@ -17,6 +17,7 @@ const config: Config = {
 				amatic: ['Amatic SC', 'sans-serif'],
 				georgia: ['Georgia', 'serif'],
 				maven: ['Maven', 'sans-serif'],
+				cherry: ['Cherry Bomb', 'sans-serif'],
 
 				karla: ['Karla', 'sans-serif'],
 				ubuntu: ['Ubuntu', 'sans-serif'],
