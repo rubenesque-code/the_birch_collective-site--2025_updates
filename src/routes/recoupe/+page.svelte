@@ -64,35 +64,6 @@
 		</div>
 	</div>
 
-	<!-- <div class="mt-12 flex justify-end gap-x-6 pl-52">
-		<div class="w-[200px]">
-			<Picture
-				imageClass="w-full border-[10px] border-[#655210]/20 aspect-square rounded-full object-cover"
-				sizes="800px"
-				data={image.illustration.recoupe_poster_main_illustration}
-				alt=""
-			/>
-		</div>
-
-		<div class="w-[200px]">
-			<Picture
-				imageClass="w-full border-[10px] border-[#655210]/20 aspect-square rounded-full object-cover"
-				sizes="800px"
-				data={image.new_and_pro.fresh_air_thursday_art}
-				alt=""
-			/>
-		</div>
-
-		<div class="w-[200px]">
-			<Picture
-				imageClass="w-full border-[10px] border-[#655210]/20 aspect-square rounded-full object-cover"
-				sizes="800px"
-				data={image.new_and_pro.cooking_pot}
-				alt=""
-			/>
-		</div>
-	</div> -->
-
 	<div class="mt-20 px-24">
 		<div class="grid grid-cols-2 justify-between gap-x-16 gap-y-16">
 			<div class="flex justify-start">
@@ -317,7 +288,32 @@
 	</div>
 </section>
 
-<section class="relative mt-8 h-[400px]">
+<!-- <section class="mt-12">
+	<div class="grid grid-cols-3 gap-x-6 pl-52">
+		<Picture
+			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			sizes="800px"
+			data={image.illustration.recoupe_poster_main_illustration}
+			alt=""
+		/>
+
+		<Picture
+			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			sizes="800px"
+			data={image.new_and_pro.fresh_air_thursday_art}
+			alt=""
+		/>
+
+		<Picture
+			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
+			sizes="800px"
+			data={image.new_and_pro.cooking_pot}
+			alt=""
+		/>
+	</div>
+</section> -->
+
+<!-- <section class="relative mt-8 h-[400px]">
 	<h1
 		class="text-border-2 scale-x-110 pt-16 text-center font-amatic text-[110px] font-bold leading-none tracking-wide text-recoupe-green"
 	>
@@ -341,52 +337,11 @@
 			</p>
 		</div>
 	</div>
-</section>
-
-<section class="mt-12">
-	<div class="grid grid-cols-3 gap-x-6 pl-52">
-		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.illustration.recoupe_poster_main_illustration}
-			alt=""
-		/>
-
-		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.new_and_pro.fresh_air_thursday_art}
-			alt=""
-		/>
-
-		<Picture
-			imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.new_and_pro.cooking_pot}
-			alt=""
-		/>
-	</div>
-</section>
+</section> -->
 
 <style>
-	.text-border-2 {
-		text-shadow:
-			-2px -2px 0 #e9eb98,
-			2px -2px 0 #e9eb98,
-			-2px 2px 0 #e9eb98,
-			2px 2px 0 #e9eb98;
-		-webkit-text-stroke: 2px #e9eb98;
-	}
 	.two-tone-text-main-title {
 		background: linear-gradient(to bottom, #e18a2f 50%, #e6b777 50%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		/* For Firefox */
-		background-clip: text;
-		color: transparent;
-	}
-	.two-tone-text-big-letter {
-		background: linear-gradient(to bottom, #8cab6d 60%, #e9eb98 60%, #e9eb98 80%, #8cab6d 80%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		/* For Firefox */
