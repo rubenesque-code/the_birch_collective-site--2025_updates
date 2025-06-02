@@ -8,6 +8,7 @@ import recoupe_poster_main_illustration from '../_files/illustrations/recoupe-po
 import recoupe_poster_main_illustration_rectangle from '../_files/illustrations/recoupe-poster-main-illustration-rectangle.jpg?w=600&format=avif;webp;png&as=picture&imagetools'
 import recoupe_poster_trees_texture_snippet from '../_files/illustrations/recoupe-poster-trees-texture-snippet.png?w=80&format=avif;webp;png&as=picture&imagetools'
 import recoupe_poster_cloud from '../_files/illustrations/recoupe-poster-cloud.png?w=80&format=avif;webp;png&as=picture&imagetools'
+import recoupe_poster_cloud_blue from '../_files/illustrations/recoupe-poster-cloud-blue.png?w=80&format=avif;webp;png&as=picture&imagetools'
 import hand_drawn_rectangle from '../_files/illustrations/hand-drawn-square-outline.png?w=520&format=avif;webp;png&as=picture&imagetools'
 import hand_drawn_post_it from '../_files/illustrations/hand-drawn-post-it.png?w=520&format=avif;webp;png&as=picture&imagetools'
 import right_arrow from '../_files/illustrations/right-arrow.png?w=520&format=avif;webp;png&as=picture&imagetools'
@@ -24,6 +25,7 @@ export const illustration = {
   recoupe_poster_main_illustration_rectangle,
   recoupe_poster_trees_texture_snippet,
   recoupe_poster_cloud,
+  recoupe_poster_cloud_blue,
   trees_recoupe_colours,
   hand_drawn_post_it,
   hand_drawn_rectangle,
