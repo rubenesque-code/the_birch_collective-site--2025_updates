@@ -4,11 +4,10 @@
 	import { image } from '^assets/images';
 
 	import { Picture } from '^components';
+	import { Button, Checkbox, Input, Label } from '~ui';
 
 	// supported/funded by section? -as on the posters
 	// main text under title is better with browser default?
-	// circular images next to main title with hand-drawn circles?
-	// large center image with hand drawn left/right arrows for image swiper
 	// granulated effect on image?
 </script>
 
@@ -311,10 +310,46 @@
 		</div>
 	</div>
 </section> -->
+<!-- <section class="mt-20 px-20">
+	<div class="flex w-full justify-between gap-6 overflow-hidden">
+		{#each Array(10) as item}
+			<div class="">
+				<Picture
+					imageClass="h-[60px] opacity-60"
+					sizes="80px"
+					data={image.illustration.trees_recoupe_colours}
+					alt=""
+				/>
+			</div>
+		{/each}
+	</div>
+</section> -->
 
-<section class="mt-32 px-24">
+<section class="mt-10 px-24">
+	<div class="flex items-center gap-20 px-32">
+		<div class="relative w-[300px]">
+			<Picture
+				imageClass="w-full"
+				sizes="80px"
+				data={image.illustration.hand_drawn_post_it}
+				alt=""
+			/>
+
+			<div class="absolute left-[9px] top-[48px] h-[170px] w-[95%]">
+				<Picture
+					imageClass="object-cover overflow-hidden border h-[95%] w-[95%] opacity-80"
+					sizes="80px"
+					data={image.programme.recoupe.four_people_around_campfire}
+					alt=""
+				/>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="mt-24 px-24">
 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
-		more about the programme
+		more about recoupe
 	</h2>
 
 	<div class="mt-8 flex justify-center">
@@ -335,15 +370,27 @@
 					alt=""
 				/>
 			</div>
-			<div class="flex-grow">
-				<div class="rounded-md border-[3px] border-[#e6b777]/50">
+			<div class="relative flex-grow">
+				<div class="relative rounded-md border-[3px] border-[#e6b777]/50">
 					<Picture
 						imageClass="w-full p-2 opacity-70 rounded-md aspect-video object-cover"
 						sizes="800px"
 						data={image.programme.recoupe.four_people_around_campfire}
 						alt=""
 					/>
+
+					<!-- <div
+						class="absolute bottom-[-30px] left-1/2 z-10 w-[800px] -translate-x-1/2 scale-y-[0.1]"
+					>
+						<Picture
+							imageClass="w-full h-full opacity-40 object-cover"
+							sizes="80px"
+							data={image.illustration.black_line}
+							alt=""
+						/>
+					</div> -->
 				</div>
+
 				<p
 					class="text-right font-amatic text-[19px] font-bold tracking-[0.017em] text-recoupe-green"
 				>
@@ -368,6 +415,56 @@
 			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
 			plants to thrive and care for the health of trees and wildlife already present.
 		</p>
+	</div>
+</section>
+
+<section class="mt-24 flex justify-center px-24">
+	<div class="w-full max-w-[900px] font-maven">
+		<div class="flex items-baseline gap-4">
+			<p class="tracking-wide">Fresh Air Thursday? I'm in!</p>
+			<p class="font-mono1 text-sm uppercase tracking-wide text-recoupe-green">sign up</p>
+		</div>
+		<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-soft-green/50"></div>
+
+		<div class="mt-2 flex items-baseline gap-4">
+			<p class="tracking-wide">I'm interested and would like to know more...</p>
+		</div>
+
+		<div>
+			<div class="mt-5 flex items-center gap-4">
+				<Checkbox class="border-bc-soft-green" id="young" />
+
+				<Label
+					for="young"
+					class="font-mono1 text-sm font-medium leading-none tracking-wide text-bc-soft-black/70 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+				>
+					I'm a participant
+				</Label>
+			</div>
+
+			<div class="mt-5 flex items-center gap-4">
+				<Checkbox class="border-bc-soft-green" id="caregiver" />
+
+				<Label
+					for="caregiver"
+					class="font-mono1 text-sm font-medium leading-none tracking-wide text-bc-soft-black/70 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+				>
+					I'm a caregiver
+				</Label>
+			</div>
+		</div>
+
+		<div class="mt-6 flex justify-between border-b border-dashed border-b-bc-soft-black">
+			<Input
+				type="email"
+				placeholder="Enter email"
+				class="rounded-none border-none pl-0 font-mono1 text-sm tracking-wide"
+			/>
+			<Button
+				class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-bc-pastel-red"
+				>Submit</Button
+			>
+		</div>
 	</div>
 </section>
 
