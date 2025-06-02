@@ -25,14 +25,23 @@
 		</div>
 	</div>
 
-	<!-- <div class="absolute left-[60px] top-[280px] opacity-80">
-		<div>
+	<!-- <div class="absolute left-[60px] top-[260px] opacity-80">
+		<div class="relative w-[200px]">
 			<Picture
-				imageClass="w-[100px]"
+				imageClass="w-full"
 				sizes="80px"
-				data={image.illustration.trees_recoupe_colours}
+				data={image.illustration.hand_drawn_post_it}
 				alt=""
 			/>
+
+			<div class="absolute left-[9px] top-[38px] z-10 h-[100px] w-[95%]">
+				<Picture
+					imageClass="object-cover overflow-hidden h-[95%] w-[95%] opacity-80"
+					sizes="80px"
+					data={image.illustration.recoupe_poster_main_illustration_rectangle}
+					alt=""
+				/>
+			</div>
 		</div>
 	</div> -->
 
@@ -326,7 +335,24 @@
 </section> -->
 
 <section class="mt-10 px-24">
-	<div class="flex items-center gap-20 px-32">
+	<div class="flex items-center justify-center gap-60 px-32">
+		<div class="relative w-[300px]">
+			<Picture
+				imageClass="w-full"
+				sizes="80px"
+				data={image.illustration.hand_drawn_post_it}
+				alt=""
+			/>
+
+			<div class="absolute left-[9px] top-[48px] h-[170px] w-[95%]">
+				<Picture
+					imageClass="object-cover overflow-hidden border h-[95%] w-[95%] opacity-80"
+					sizes="80px"
+					data={image.illustration.recoupe_poster_main_illustration}
+					alt=""
+				/>
+			</div>
+		</div>
 		<div class="relative w-[300px]">
 			<Picture
 				imageClass="w-full"
