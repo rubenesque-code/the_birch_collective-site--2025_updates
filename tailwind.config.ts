@@ -83,6 +83,8 @@ const config: Config = {
 				'recoupe-green': '#627d48',
 				'recoupe-light-yellow': '#e9eb98',
 				'recoupe-brown': '#655210',
+				'recoupe-light-orangey-brown': '#e6b777',
+				'recoupe-dark-orangey-brown': '#e18a2f',
 
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",

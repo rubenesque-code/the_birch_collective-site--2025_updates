@@ -26,6 +26,17 @@
 		</div>
 	</div>
 
+	<!-- <div class="absolute left-[60px] top-[280px] opacity-80">
+		<div>
+			<Picture
+				imageClass="w-[100px]"
+				sizes="80px"
+				data={image.illustration.trees_recoupe_colours}
+				alt=""
+			/>
+		</div>
+	</div> -->
+
 	<div class="absolute -top-[60px] right-[300px]">
 		<div class="w-[100px]">
 			<Picture
@@ -41,7 +52,14 @@
 		class="mt-32 flex flex-col items-center text-center font-amatic text-[100px] font-bold leading-[1.3] text-recoupe-light-yellow"
 	>
 		<span class="two-tone-text-main-title">take part in regenerative</span>
-		<span class="text-[#e6b777]">woodland activities — recoupe</span>
+		<span class="relative inline-block text-[#e6b777]"
+			>woodland activities — recoupe
+			<span
+				class="absolute -right-6 bottom-0 -translate-y-full translate-x-full font-mono1 text-sm font-normal text-bc-soft-black/30"
+			>
+				Sign up
+			</span>
+		</span>
 	</h2>
 
 	<div class="mt-12 flex justify-center">
@@ -57,7 +75,7 @@
 		</div>
 	</div>
 
-	<div class="mt-20 px-24">
+	<div class="mt-16 px-24">
 		<div class="grid grid-cols-2 justify-between gap-x-16 gap-y-16">
 			<div class="flex justify-start">
 				<div class="relative w-max">
@@ -281,7 +299,20 @@
 	</div>
 </section>
 
-<section class="mt-24 px-24">
+<!-- <section class="mt-12">
+	<div class="flex justify-center gap-20">
+		<div class="rounded-full bg-recoupe-light-yellow/30 p-4">
+			<Picture
+				imageClass="w-[180px] opacity-80 h-[180px] object-cover rounded-full border-4 border-recoupe-light-yellow"
+				sizes="80px"
+				data={image.illustration.recoupe_poster_main_illustration}
+				alt=""
+			/>
+		</div>
+	</div>
+</section> -->
+
+<section class="mt-32 px-24">
 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
 		more about the programme
 	</h2>
