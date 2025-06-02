@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import { ArrowLeft, Axe, Hammer, PersonSimpleHike, Tree } from 'phosphor-svelte';
+	import { Axe, Hammer, PersonSimpleHike, Tree } from 'phosphor-svelte';
 
 	import { image } from '^assets/images';
 
@@ -288,31 +288,31 @@
 </section>
 
 <!-- <section class="mt-12">
-	<div class="flex justify-center gap-20">
-		<div class="rounded-full bg-recoupe-light-yellow/30 p-4">
-			<Picture
-				imageClass="w-[180px] opacity-80 h-[180px] object-cover rounded-full border-4 border-recoupe-light-yellow"
-				sizes="80px"
-				data={image.illustration.recoupe_poster_main_illustration}
-				alt=""
-			/>
-		</div>
-	</div>
-</section> -->
+ 	<div class="flex justify-center gap-20">
+ 		<div class="rounded-full bg-recoupe-light-yellow/30 p-4">
+ 			<Picture
+ 				imageClass="w-[180px] opacity-80 h-[180px] object-cover rounded-full border-4 border-recoupe-light-yellow"
+ 				sizes="80px"
+ 				data={image.illustration.recoupe_poster_main_illustration}
+ 				alt=""
+ 			/>
+ 		</div>
+ 	</div>
+ </section> -->
 <!-- <section class="mt-20 px-20">
-	<div class="flex w-full justify-between gap-6 overflow-hidden">
-		{#each Array(10) as item}
-			<div class="">
-				<Picture
-					imageClass="h-[60px] opacity-60"
-					sizes="80px"
-					data={image.illustration.trees_recoupe_colours}
-					alt=""
-				/>
-			</div>
-		{/each}
-	</div>
-</section> -->
+ 	<div class="flex w-full justify-between gap-6 overflow-hidden">
+ 		{#each Array(10) as item}
+ 			<div class="">
+ 				<Picture
+ 					imageClass="h-[60px] opacity-60"
+ 					sizes="80px"
+ 					data={image.illustration.trees_recoupe_colours}
+ 					alt=""
+ 				/>
+ 			</div>
+ 		{/each}
+ 	</div>
+ </section> -->
 
 <section class="relative mt-10 px-24 pt-20">
 	<div class="absolute right-[600px] top-[20px]">
@@ -375,81 +375,128 @@
 	</div>
 </section>
 
-<section class="mt-24 px-24">
+<section class="mt-16">
 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
 		more about recoupe
 	</h2>
+	<!-- <div class="mt-10 flex justify-center gap-28 px-32">
+ 		<p class="max-w-[480px] font-maven">
+ 			We will mainly use hand tools and apply traditional woodland management techniques such as
+ 			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
+ 			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
+ 		</p>
+ 
+ 		<p class="mt-16 max-w-[480px] font-maven">
+ 			...the tree are utilised. By planting a broad range of trees and creating diverse habitats to
+ 			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
+ 			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
+ 			plants to thrive and care for the health of trees and wildlife already present.
+ 		</p>
+ 	</div> -->
 
 	<div class="mt-8 flex justify-center">
-		<p class="max-w-[700px] font-maven">
-			We will mainly use hand tools and apply traditional woodland management techniques such as
-			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
-			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
-		</p>
-	</div>
+		<div>
+			<p class="max-w-[700px] font-maven">
+				We will mainly use hand tools and apply traditional woodland management techniques such as
+				coppicing, charcoal burning, and hedge laying. This allows us to produce local products
+				like: Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all
+				parts.
+			</p>
 
-	<div class="mt-10 flex justify-center">
-		<div class="flex w-[1200px] items-center gap-4">
-			<div class="grid w-[70px] scale-x-[-1] place-items-center rounded-lg p-3">
-				<Picture
-					imageClass="opacity-80"
-					sizes="80px"
-					data={image.illustration.right_arrow_light_orange}
-					alt=""
-				/>
-			</div>
-			<div class="relative flex-grow">
-				<div class="relative rounded-md border-[3px] border-[#e6b777]/50">
-					<Picture
-						imageClass="w-full p-2 opacity-70 rounded-md aspect-video object-cover"
-						sizes="800px"
-						data={image.programme.recoupe.four_people_around_campfire}
-						alt=""
-					/>
+			<h3 class="mt-6 font-maven font-bold text-recoupe-green">
+				Recoupe is suitable for anyone who...
+			</h3>
 
-					<!-- <div
-						class="absolute bottom-[-30px] left-1/2 z-10 w-[800px] -translate-x-1/2 scale-y-[0.1]"
-					>
-						<Picture
-							imageClass="w-full h-full opacity-40 object-cover"
-							sizes="80px"
-							data={image.illustration.black_line}
-							alt=""
-						/>
-					</div> -->
+			<div class="mt-5 flex flex-col gap-3">
+				<div class="flex items-center gap-4">
+					<span class="rounded-full bg-recoupe-light-yellow/50 p-[8px] text-lg text-recoupe-brown">
+						<PersonSimpleHike weight="duotone" />
+					</span>
+					<p>Enjoys being outdoors and learning practical skills</p>
 				</div>
 
-				<p
-					class="text-right font-amatic text-[19px] font-bold tracking-[0.017em] text-recoupe-green"
-				>
-					images from recoupe
-				</p>
-			</div>
-			<div class="w-[50px]">
-				<Picture
-					imageClass=""
-					sizes="80px"
-					data={image.illustration.right_arrow_light_orange}
-					alt=""
-				/>
+				<div class="flex items-center gap-4">
+					<span class="rounded-full bg-recoupe-light-yellow/50 p-[8px] text-lg text-recoupe-brown">
+						<Tree weight="duotone" />
+					</span>
+					<p>People keen to restore nature and boost biodiversity.</p>
+				</div>
+
+				<div class="flex items-center gap-4">
+					<span class="rounded-full bg-recoupe-light-yellow/50 p-[8px] text-lg text-recoupe-brown">
+						<Axe weight="duotone" />
+					</span>
+					<p>Those interested in traditional woodland crafts.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="mt-8 flex justify-center">
-		<p class="max-w-[700px] font-maven">
-			the tree are utilised. By planting a broad range of trees and creating diverse habitats to
-			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
-			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
-			plants to thrive and care for the health of trees and wildlife already present.
-		</p>
-	</div>
 </section>
 
+<!-- <section class="mt-24 px-24">
+ 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
+ 		more about recoupe
+ 	</h2>
+ 
+ 	<div class="mt-8 flex justify-center">
+ 		<p class="max-w-[700px] font-maven">
+ 			We will mainly use hand tools and apply traditional woodland management techniques such as
+ 			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
+ 			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
+ 		</p>
+ 	</div>
+ 
+ 	<div class="mt-10 flex justify-center">
+ 		<div class="flex w-[1200px] items-center gap-4">
+ 			<div class="grid w-[70px] scale-x-[-1] place-items-center rounded-lg p-3">
+ 				<Picture
+ 					imageClass="opacity-80"
+ 					sizes="80px"
+ 					data={image.illustration.right_arrow_light_orange}
+ 					alt=""
+ 				/>
+ 			</div>
+ 			<div class="relative flex-grow">
+ 				<div class="relative rounded-md border-[3px] border-[#e6b777]/50">
+ 					<Picture
+ 						imageClass="w-full p-2 opacity-70 rounded-md aspect-video object-cover"
+ 						sizes="800px"
+ 						data={image.programme.recoupe.four_people_around_campfire}
+ 						alt=""
+ 					/>
+ 				</div>
+ 
+ 				<p
+ 					class="text-right font-amatic text-[19px] font-bold tracking-[0.017em] text-recoupe-green"
+ 				>
+ 					images from recoupe
+ 				</p>
+ 			</div>
+ 			<div class="w-[50px]">
+ 				<Picture
+ 					imageClass=""
+ 					sizes="80px"
+ 					data={image.illustration.right_arrow_light_orange}
+ 					alt=""
+ 				/>
+ 			</div>
+ 		</div>
+ 	</div>
+ 
+ 	<div class="mt-8 flex justify-center">
+ 		<p class="max-w-[700px] font-maven">
+ 			the tree are utilised. By planting a broad range of trees and creating diverse habitats to
+ 			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
+ 			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
+ 			plants to thrive and care for the health of trees and wildlife already present.
+ 		</p>
+ 	</div>
+ </section> -->
+
 <section class="mt-24 flex justify-center px-24">
-	<div class="w-full max-w-[900px] font-maven">
+	<div class="w-full max-w-[700px] font-maven">
 		<div class="flex items-baseline gap-4">
-			<p class="tracking-wide">Fresh Air Thursday? I'm in!</p>
+			<p class="tracking-wide">Recoupe? I'm in!</p>
 			<p class="font-mono1 text-sm uppercase tracking-wide text-recoupe-green">sign up</p>
 		</div>
 		<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-soft-green/50"></div>
@@ -489,7 +536,7 @@
 				class="rounded-none border-none pl-0 font-mono1 text-sm tracking-wide"
 			/>
 			<Button
-				class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-bc-pastel-red"
+				class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-recoupe-green"
 				>Submit</Button
 			>
 		</div>
