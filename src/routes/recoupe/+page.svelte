@@ -394,16 +394,18 @@
  		</p>
  	</div> -->
 
-	<div class="mt-8 flex justify-center">
+	<div class="mt-16 flex justify-between gap-20 px-44">
 		<div>
-			<p class="max-w-[700px] font-maven">
+			<p class="max-w-[500px] font-maven">
 				We will mainly use hand tools and apply traditional woodland management techniques such as
 				coppicing, charcoal burning, and hedge laying. This allows us to produce local products
 				like: Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all
 				parts.
 			</p>
+		</div>
 
-			<h3 class="mt-6 font-maven font-bold text-recoupe-green">
+		<div>
+			<h3 class="font-maven font-bold text-recoupe-green/70">
 				Recoupe is suitable for anyone who...
 			</h3>
 
@@ -494,7 +496,7 @@
  </section> -->
 
 <section class="mt-24 flex justify-center px-24">
-	<div class="w-full max-w-[700px] font-maven">
+	<div class="w-full max-w-[800px] font-maven">
 		<div class="flex items-baseline gap-4">
 			<p class="tracking-wide">Recoupe? I'm in!</p>
 			<p class="font-mono1 text-sm uppercase tracking-wide text-recoupe-green">sign up</p>
