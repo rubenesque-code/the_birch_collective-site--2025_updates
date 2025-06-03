@@ -287,33 +287,6 @@
 	</div>
 </section>
 
-<!-- <section class="mt-12">
- 	<div class="flex justify-center gap-20">
- 		<div class="rounded-full bg-recoupe-light-yellow/30 p-4">
- 			<Picture
- 				imageClass="w-[180px] opacity-80 h-[180px] object-cover rounded-full border-4 border-recoupe-light-yellow"
- 				sizes="80px"
- 				data={image.illustration.recoupe_poster_main_illustration}
- 				alt=""
- 			/>
- 		</div>
- 	</div>
- </section> -->
-<!-- <section class="mt-20 px-20">
- 	<div class="flex w-full justify-between gap-6 overflow-hidden">
- 		{#each Array(10) as item}
- 			<div class="">
- 				<Picture
- 					imageClass="h-[60px] opacity-60"
- 					sizes="80px"
- 					data={image.illustration.trees_recoupe_colours}
- 					alt=""
- 				/>
- 			</div>
- 		{/each}
- 	</div>
- </section> -->
-
 <section class="relative mt-10 px-24 pt-20">
 	<div class="absolute right-[600px] top-[20px]">
 		<div class="w-[100px]">
@@ -379,20 +352,6 @@
 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
 		more about recoupe
 	</h2>
-	<!-- <div class="mt-10 flex justify-center gap-28 px-32">
- 		<p class="max-w-[480px] font-maven">
- 			We will mainly use hand tools and apply traditional woodland management techniques such as
- 			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
- 			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
- 		</p>
- 
- 		<p class="mt-16 max-w-[480px] font-maven">
- 			...the tree are utilised. By planting a broad range of trees and creating diverse habitats to
- 			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
- 			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
- 			plants to thrive and care for the health of trees and wildlife already present.
- 		</p>
- 	</div> -->
 
 	<div class="mt-16 flex justify-between gap-20 px-44">
 		<div>
@@ -435,73 +394,22 @@
 	</div>
 </section>
 
-<!-- <section class="mt-24 px-24">
- 	<h2 class="two-tone-text-main-title text-center font-amatic text-5xl font-bold">
- 		more about recoupe
- 	</h2>
- 
- 	<div class="mt-8 flex justify-center">
- 		<p class="max-w-[700px] font-maven">
- 			We will mainly use hand tools and apply traditional woodland management techniques such as
- 			coppicing, charcoal burning, and hedge laying. This allows us to produce local products like:
- 			Beanpoles, pea sticks, Charcoal and Materials for traditional crafts, ensuring all parts.
- 		</p>
- 	</div>
- 
- 	<div class="mt-10 flex justify-center">
- 		<div class="flex w-[1200px] items-center gap-4">
- 			<div class="grid w-[70px] scale-x-[-1] place-items-center rounded-lg p-3">
- 				<Picture
- 					imageClass="opacity-80"
- 					sizes="80px"
- 					data={image.illustration.right_arrow_light_orange}
- 					alt=""
- 				/>
- 			</div>
- 			<div class="relative flex-grow">
- 				<div class="relative rounded-md border-[3px] border-[#e6b777]/50">
- 					<Picture
- 						imageClass="w-full p-2 opacity-70 rounded-md aspect-video object-cover"
- 						sizes="800px"
- 						data={image.programme.recoupe.four_people_around_campfire}
- 						alt=""
- 					/>
- 				</div>
- 
- 				<p
- 					class="text-right font-amatic text-[19px] font-bold tracking-[0.017em] text-recoupe-green"
- 				>
- 					images from recoupe
- 				</p>
- 			</div>
- 			<div class="w-[50px]">
- 				<Picture
- 					imageClass=""
- 					sizes="80px"
- 					data={image.illustration.right_arrow_light_orange}
- 					alt=""
- 				/>
- 			</div>
- 		</div>
- 	</div>
- 
- 	<div class="mt-8 flex justify-center">
- 		<p class="max-w-[700px] font-maven">
- 			the tree are utilised. By planting a broad range of trees and creating diverse habitats to
- 			accommodate a breadth of wildlife, we aim to increase the biodiversity and life in the
- 			woodland. To support this we will build 'dead' hedges, create glades and clearings for ground
- 			plants to thrive and care for the health of trees and wildlife already present.
- 		</p>
- 	</div>
- </section> -->
+<div class="flex justify-center pt-[80px]">
+	<div class="h-[14px] w-[400px] bg-recoupe-light-orangey-brown/30"></div>
+</div>
 
-<section class="mt-24 flex justify-center px-24">
+<!-- <section class="mt-16 flex justify-center px-24">
 	<div class="w-full max-w-[800px] font-maven">
 		<div class="flex items-baseline gap-4">
 			<p class="tracking-wide">Recoupe? I'm in!</p>
-			<p class="font-mono1 text-sm uppercase tracking-wide text-recoupe-green">sign up</p>
+			<button
+				class="two-tone-text-main-title relative rounded-sm font-amatic text-xl font-bold tracking-wide text-white underline decoration-recoupe-light-orangey-brown underline-offset-4"
+				type="button"
+			>
+				sign up
+			</button>
 		</div>
-		<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-bc-soft-green/50"></div>
+		<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-recoupe-light-yellow/70"></div>
 
 		<div class="mt-2 flex items-baseline gap-4">
 			<p class="tracking-wide">I'm interested and would like to know more...</p>
@@ -509,22 +417,22 @@
 
 		<div>
 			<div class="mt-5 flex items-center gap-4">
-				<Checkbox class="border-bc-soft-green" id="young" />
+				<Checkbox class="border-recoupe-light-orangey-brown" id="young" />
 
 				<Label
 					for="young"
-					class="font-mono1 text-sm font-medium leading-none tracking-wide text-bc-soft-black/70 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+					class="font-maven text-base leading-none text-recoupe-green peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
 				>
 					I'm a participant
 				</Label>
 			</div>
 
 			<div class="mt-5 flex items-center gap-4">
-				<Checkbox class="border-bc-soft-green" id="caregiver" />
+				<Checkbox class="border-recoupe-light-orangey-brown" id="caregiver" />
 
 				<Label
 					for="caregiver"
-					class="font-mono1 text-sm font-medium leading-none tracking-wide text-bc-soft-black/70 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+					class="font-maven text-base leading-none text-recoupe-green peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
 				>
 					I'm a caregiver
 				</Label>
@@ -535,76 +443,12 @@
 			<Input
 				type="email"
 				placeholder="Enter email"
-				class="rounded-none border-none pl-0 font-mono1 text-sm tracking-wide"
+				class="rounded-none border-none pl-0 font-mono1 text-[13px]"
 			/>
 			<Button
-				class="bg-transparent px-0 font-mono1 text-sm  uppercase tracking-wide text-recoupe-green"
-				>Submit</Button
+				class="bg-transparent font-amatic text-[21px] font-bold tracking-wider text-recoupe-green"
+				>submit</Button
 			>
-		</div>
-	</div>
-</section>
-
-<!-- <section class="mt-32">
-	<div class="flex justify-center">
-		<div class="w-[800px]">
-			<Picture
-				imageClass="w-full border-[10px] border-[#655210]/20 rounded-md aspect-video object-cover"
-				sizes="800px"
-				data={image.new_and_pro.fresh_air_thursday_art}
-				alt=""
-			/>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="mt-24">
-	<div class="grid grid-cols-3 gap-x-3 px-24">
-		<Picture
-			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.illustration.recoupe_poster_main_illustration}
-			alt=""
-		/>
-
-		<Picture
-			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.new_and_pro.fresh_air_thursday_art}
-			alt=""
-		/>
-
-		<Picture
-			imageClass="w-full border-[8px] border-recoupe-light-yellow/50 rounded-md aspect-video object-cover"
-			sizes="800px"
-			data={image.new_and_pro.cooking_pot}
-			alt=""
-		/>
-	</div>
-</section> -->
-
-<!-- <section class="relative mt-8 h-[400px]">
-	<h1
-		class="text-border-2 scale-x-110 pt-16 text-center font-amatic text-[110px] font-bold leading-none tracking-wide text-recoupe-green"
-	>
-		Recoupe
-	</h1>
-
-	<div class="mt-10 flex justify-center">
-		<div class="grid max-w-[1100px] grid-cols-2 gap-x-10 font-maven">
-			<p>
-				Recoupe is a regenerative ecological project breathing new life into Troopers Hill Woods.
-				Our focus is to work sensitively with the land to create a thriving and diverse working
-				woodland.
-				<br /><br />
-				We will mainly use hand tools and apply traditional woodland
-			</p>
-
-			<p>
-				management techniques such as coppicing, charcoal burning, and hedge laying. This allows us
-				to produce local products like: Beanpoles, pea sticks, Charcoal and Materials for
-				traditional crafts, ensuring all parts of the tree are utilised.
-			</p>
 		</div>
 	</div>
 </section> -->
