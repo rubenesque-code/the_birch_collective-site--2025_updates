@@ -511,61 +511,6 @@
 	</div>
 </section>
 
-<!-- <section class="mt-16 flex justify-center px-24">
-	<div class="w-full max-w-[800px] font-maven">
-		<div class="flex items-baseline gap-4">
-			<p class="tracking-wide">Recoupe? I'm in!</p>
-			<button
-				class="two-tone-text-main-title relative rounded-sm font-amatic text-xl font-bold tracking-wide text-white underline decoration-recoupe-light-orangey-brown underline-offset-4"
-				type="button"
-			>
-				sign up
-			</button>
-		</div>
-		<div class="my-5 flex h-[1px] w-[40px] items-center gap-4 bg-recoupe-light-yellow/70"></div>
-
-		<div class="mt-2 flex items-baseline gap-4">
-			<p class="tracking-wide">I'm interested and would like to know more...</p>
-		</div>
-
-		<div>
-			<div class="mt-5 flex items-center gap-4">
-				<Checkbox class="border-recoupe-light-orangey-brown" id="young" />
-
-				<Label
-					for="young"
-					class="font-maven text-base leading-none text-recoupe-green peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-				>
-					I'm a participant
-				</Label>
-			</div>
-
-			<div class="mt-5 flex items-center gap-4">
-				<Checkbox class="border-recoupe-light-orangey-brown" id="caregiver" />
-
-				<Label
-					for="caregiver"
-					class="font-maven text-base leading-none text-recoupe-green peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-				>
-					I'm a caregiver
-				</Label>
-			</div>
-		</div>
-
-		<div class="mt-6 flex justify-between border-b border-dashed border-b-bc-soft-black">
-			<Input
-				type="email"
-				placeholder="Enter email"
-				class="rounded-none border-none pl-0 font-mono1 text-[13px]"
-			/>
-			<Button
-				class="bg-transparent font-amatic text-[21px] font-bold tracking-wider text-recoupe-green"
-				>submit</Button
-			>
-		</div>
-	</div>
-</section> -->
-
 <style>
 	.two-tone-text-main-title {
 		background: linear-gradient(to bottom, #e18a2f 50%, #e6b777 50%);
