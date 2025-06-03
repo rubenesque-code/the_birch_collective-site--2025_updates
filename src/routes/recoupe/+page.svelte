@@ -394,9 +394,122 @@
 	</div>
 </section>
 
-<div class="flex justify-center pt-[80px]">
-	<div class="h-[14px] w-[400px] bg-recoupe-light-orangey-brown/30"></div>
-</div>
+<section class="mt-16">
+	<div class="flex justify-center">
+		<div class="flex justify-center gap-20">
+			<div class="relative flex flex-col items-center rounded-lg p-4">
+				<div class="">
+					<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">
+						click here to book a place
+					</h3>
+				</div>
+
+				<div class="absolute left-1/2 top-[3px] w-[120px] -translate-x-1/2 scale-y-50">
+					<Picture
+						imageClass="w-full h-full opacity-40 object-cover"
+						sizes="80px"
+						data={image.illustration.black_line}
+						alt=""
+					/>
+				</div>
+
+				<div class="absolute bottom-[1px] left-1/2 w-[120px] -translate-x-1/2 scale-y-[0.50]">
+					<Picture
+						imageClass="w-full h-full opacity-40 object-cover"
+						sizes="80px"
+						data={image.illustration.black_line}
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col items-center rounded-lg p-4">
+				<div class="">
+					<h3 class=" font-amatic text-3xl font-bold text-recoupe-green">
+						click here to register interest
+					</h3>
+				</div>
+
+				<div class="absolute left-1/2 top-[3px] w-[120px] -translate-x-1/2 scale-y-50">
+					<Picture
+						imageClass="w-full h-full opacity-40 object-cover"
+						sizes="80px"
+						data={image.illustration.black_line}
+						alt=""
+					/>
+				</div>
+
+				<div class="absolute bottom-[1px] left-1/2 w-[120px] -translate-x-1/2 scale-y-[0.50]">
+					<Picture
+						imageClass="w-full h-full opacity-40 object-cover"
+						sizes="80px"
+						data={image.illustration.black_line}
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="relative mt-12 px-44 pt-16">
+	<div class="absolute left-1/2 top-0 w-[920px] -translate-x-1/2 scale-y-[0.08]">
+		<Picture
+			imageClass="w-full h-full opacity-60 object-cover"
+			sizes="80px"
+			data={image.illustration.black_line}
+			alt=""
+		/>
+	</div>
+
+	<div class="w-full rounded-md border-[4px] border-recoupe-light-orangey-brown/30 p-[6px]">
+		<Picture
+			imageClass="w-full h-full object-cover "
+			sizes="80px"
+			data={image.new_and_pro.drone_trees_and_sitting_circle_very_far}
+			alt=""
+		/>
+	</div>
+
+	<div class="my-4">
+		<p class="two-tone-text-other font-amatic text-3xl font-bold">@thebirchcollectivebristol</p>
+	</div>
+
+	<div class="grid grid-cols-3 gap-8">
+		<div
+			class="aspect-square w-full rounded-md border-4 border-recoupe-light-orangey-brown/30 p-[6px]"
+		>
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="80px"
+				data={image.new_and_pro.cooking_pot}
+				alt=""
+			/>
+		</div>
+
+		<div
+			class="aspect-square w-full rounded-md border-4 border-recoupe-light-orangey-brown/30 p-[6px]"
+		>
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="80px"
+				data={image.new_and_pro.fresh_air_thursday_art}
+				alt=""
+			/>
+		</div>
+
+		<div
+			class="aspect-square w-full rounded-md border-4 border-recoupe-light-orangey-brown/30 p-[6px]"
+		>
+			<Picture
+				imageClass="w-full h-full object-cover"
+				sizes="80px"
+				data={image.new_and_pro.stay_calm_and_listen_to_nature}
+				alt=""
+			/>
+		</div>
+	</div>
+</section>
 
 <!-- <section class="mt-16 flex justify-center px-24">
 	<div class="w-full max-w-[800px] font-maven">
@@ -456,6 +569,15 @@
 <style>
 	.two-tone-text-main-title {
 		background: linear-gradient(to bottom, #e18a2f 50%, #e6b777 50%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		/* For Firefox */
+		background-clip: text;
+		color: transparent;
+	}
+
+	.two-tone-text-other {
+		background: linear-gradient(to bottom, #2f637b 50%, #74c1d5 50%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		/* For Firefox */
